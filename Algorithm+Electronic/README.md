@@ -54,39 +54,13 @@
 
 ```mermaid
 graph TD
-    A[1-OS Lesson-1: Linux基础] --> B[2-Python Lesson-1: 基础语法]
-    B --> C[2-Python Lesson-2: 数据结构]
-    C --> D[2-Python Lesson-3: 面向对象]
-    A --> E[3-OpenCV Lesson-1: 计算机视觉]
-    D --> F[RoboMaster 项目开发]
-    E --> F
+    A[1-Python Lesson-1: 基础语法]
+    A --> B[1-Python Lesson-2: 数据结构]
+    B --> C[1-Python Lesson-3: 面向对象]
+    C --> D[2-OS-Basic: Linux基础]
+    D --> E[3-OpenCV: 程序配置运行]
+    D --> F[4-ROS2 Lesson-1: 机器人操作系统]
 ```
-
-## 课程特色
-
-### 🎯 **实践导向**
-
-- 每个模块都包含完整的实战项目
-- 从简单计算器到人脸识别系统
-- 注重动手能力和问题解决
-
-### 🤖 **RoboMaster 专用**
-
-- 针对机器人开发需求设计
-- 涵盖系统管理、编程、视觉处理
-- 为后续比赛开发打下基础
-
-### 🧠 **AI 辅助学习**
-
-- 教授如何使用 AI 工具辅助编程
-- 学会代码生成和调试技巧
-- 培养现代开发者必备技能
-
-### 📈 **循序渐进**
-
-- 从基础系统操作到高级编程概念
-- 合理的难度梯度设计
-- 充分的练习和作业安排
 
 ## 前置要求
 
@@ -114,12 +88,6 @@ graph TD
 - **开发环境**: VS Code + Python 3.8+ + Ubuntu 22.04
 - **AI 工具**: GitHub Copilot, ChatGPT, Claude 等
 - **官方文档**: Python、OpenCV、Ubuntu 官方文档
-
-## 评估方式
-
-- **课堂练习**（30%）：每节课的实际操作练习
-- **课后作业**（40%）：综合性项目作业
-- **最终项目**（30%）：结合所学知识的综合项目
 
 ## 快速开始
 
