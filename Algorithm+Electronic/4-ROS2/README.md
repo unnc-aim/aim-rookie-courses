@@ -1,3 +1,5 @@
+[cpp版](https://github.com/UNNC-AIM/2026-AIM-Courses/tree/main/Algorithm%2BElectronic/4-ROS2/README.cpp.md)
+
 # ROS 2 Lesson-1：虚拟机环境下的节点、订阅与服务实战
 
 > 目标：在虚拟机里完成一个最小可跑的 ROS 2 项目（Python 实现），包含一个发布者节点、一个订阅者节点，以及一个简单的加法服务与客户端。
