@@ -58,7 +58,7 @@ OS 基础模块包含 1 节课程，专注于 Linux 操作系统的基础知识�
 ### 必需软件
 
 - VirtualBox 或 VMware 虚拟机软件
-- Ubuntu 22.04 LTS 或更新版本 ISO 镜像
+- Ubuntu 22.04 LTS 镜像文件（推荐版本）
 - 足够的硬盘空间（至少 20GB）
 
 ### 推荐配置

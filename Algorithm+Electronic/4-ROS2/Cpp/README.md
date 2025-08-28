@@ -1,14 +1,20 @@
-## ros2介绍与安装
+# ROS2 介绍与安装
 
-### linux基础
+[Python 版请看这里](../Python/README.md)
 
-- 介绍linux 与ubuntu
+> **系统要求**：Ubuntu 22.04 + ROS2 Humble
+>
+> 本教程专为 Ubuntu 22.04 系统配置 ROS2 Humble 发行版
+
+## Linux 基础
+
+- 介绍 Linux 与 Ubuntu 22.04
 - 安装
 - 基本指令
 
-### ros2入门
+## ROS2 入门
 
-#### 环境与依赖
+### 环境与依赖
 
 ```bash
 # 1. 添加 ROS 2 软件源
@@ -50,9 +56,9 @@ rosdep update
 
 ```
 
-### node初体验
+### node 初体验
 
-#### 感受node
+#### 感受 node
 
 ```bash
 #publish && subscribe
@@ -129,11 +135,11 @@ int main(int argc, char **argv)
 
 #### cmakelist
 
->[reference blog](https://blog.csdn.net/qq_38410730/article/details/102477162)
+> [reference blog](https://blog.csdn.net/qq_38410730/article/details/102477162)
 
 ```cmake
 
-project(name_of_your_file)                                          #必须设置变量，下面的代码都可以用到 
+project(name_of_your_file)                                          #必须设置变量，下面的代码都可以用到
 set(GOOGLE_PROTOBUF_DIR ${PROJECT_SOURCE_DIR}/protobuf)
 add_subdirectory(子文件夹名称)                         #父目录必须，子目录不必
 
@@ -152,8 +158,8 @@ target_link_libraries(库文件名称/可执行文件名称 链接的库文件�
 
 ### 话题
 
->[code from here](https://fishros.com/d2lros2/#/humble/chapt3/get_started/2.%E8%AF%9D%E9%A2%98%E4%B9%8BRCLCPP%E5%AE%9E%E7%8E%B0)
-进入 src/ros2_topic_demo/src/ 目录，新增 2 个 .cpp 文件。
+> [code from here](https://fishros.com/d2lros2/#/humble/chapt3/get_started/2.%E8%AF%9D%E9%A2%98%E4%B9%8BRCLCPP%E5%AE%9E%E7%8E%B0)
+> 进入 src/ros2_topic_demo/src/ 目录，新增 2 个 .cpp 文件。
 
 #### 创建话题包
 
@@ -166,8 +172,8 @@ ros2 pkg create --build-type ament_cmake ros2_topic_demo \
 ```
 
 - pkg create 是创建包的意思
-- --build-type 用来指定该包的编译类型，一共有三个可选项ament_python、ament_cmake、cmake
-- --dependencies 指的是这个功能包的依赖，这里小鱼给了一个ros2的C++客户端接口rclcpp
+- --build-type 用来指定该包的编译类型，一共有三个可选项 ament_python、ament_cmake、cmake
+- --dependencies 指的是这个功能包的依赖，这里小鱼给了一个 ros2 的 C++客户端接口 rclcpp
 
 生成的包结构大致如下：
 
@@ -179,15 +185,15 @@ ros2_topic_demo/
   include/ros2_topic_demo/
 ```
 
-build 目录存储的是中间文件。对于每个包，将创建一个子文件夹，在其中调用例如CMake
+build 目录存储的是中间文件。对于每个包，将创建一个子文件夹，在其中调用例如 CMake
 install 目录是每个软件包将安装到的位置。默认情况下，每个包都将安装到单独的子目录中。
-log 目录包含有关每个colcon调用的各种日志信息。
+log 目录包含有关每个 colcon 调用的各种日志信息。
 
 #### 编写话题包
 
 ##### publisher：talker.cpp
 
-``` cpp
+```cpp
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 
@@ -278,14 +284,14 @@ int main(int argc, char **argv)
 
 ##### packadge.xml
 
-在 buildtool 依赖项后添加一个新行ament_cmake，并粘贴与节点的包含语句相对应的以下依赖项：
+在 buildtool 依赖项后添加一个新行 ament_cmake，并粘贴与节点的包含语句相对应的以下依赖项：
 
 ```xml
 <depend>rclcpp</depend>
 <depend>std_msgs</depend>
 ```
 
-这声明了包的需求rclcpp以及std_msgs其代码的构建和执行时间。
+这声明了包的需求 rclcpp 以及 std_msgs 其代码的构建和执行时间。
 
 ##### CMakeLists.txt
 
@@ -347,6 +353,7 @@ source install/setup.bash
 ```
 
 运行发布/订阅
+
 > 开两个终端
 
 ```bash
@@ -356,7 +363,7 @@ ros2 run ros2_topic_demo listener
 
 ---
 
-#### launch文件
+#### launch 文件
 
 如果想一次拉起 talker + listener：
 
@@ -396,10 +403,10 @@ ros2 launch ros2_topic_demo demo_launch.py
 
 ### 服务
 
-ament_cmake类型功能包导入消息接口分为三步：
+ament_cmake 类型功能包导入消息接口分为三步：
 
-在CMakeLists.txt中导入，具体是先find_packages再ament_target_dependencies。
-在packages.xml中导入，具体是添加depend标签并将消息接口写入。
+在 CMakeLists.txt 中导入，具体是先 find_packages 再 ament_target_dependencies。
+在 packages.xml 中导入，具体是添加 depend 标签并将消息接口写入。
 在代码中导入，C++中是#include"消息功能包/xxx/xxx.hpp"。
 
 [code from here](https://fishros.com/d2lros2/#/humble/chapt3/get_started/5.%E6%9C%8D%E5%8A%A1%E4%B9%8BRCLCPP%E5%AE%9E%E7%8E%B0)
@@ -526,7 +533,7 @@ int main(int argc, char** argv) {
 
 略
 
-#### 构建与运行
+#### 构建运行
 
 略
 
@@ -537,16 +544,16 @@ int main(int argc, char** argv) {
 **明明编译过但找不到可执行**：忘了 `source install/setup.bash`；或修改了 `entry_points` 却没重建。
 **话题没数据**：确认 talker 正在运行、话题名一致（都是 `chatter`），`ros2 topic list` 查看是否存在。
 **服务不可用**：客户端启动时会等待服务注册；确认服务端处于运行态，或用 `ros2 service list` 检查。
-**环境冲突**：同机多发行版并存时，务必检查当前 `source` 的是哪个 `$ROS_DISTRO`。
+**环境冲突**：同机多发行版并存时，务必检查当前 `source` 的是 ROS2 Humble（`/opt/ros/humble/setup.bash`）。
 
 ---
 
 ### 拓展与思考
 
-* 把 `String` 换成自定义消息（在 `msg/` 里定义，再修改 `package.xml` 与 `setup.py`）。
-* 给 `listener` 加一点简单“业务逻辑”，例如统计消息速率、写入日志文件。
-* 在服务中引入参数服务器（`declare_parameter/get_parameter`），比如设置一个偏置量 `bias`，返回 `a+b+bias`。
-* 尝试用 `rqt_graph` / `ros2 doctor` 观察图结构与健康状态。
+- 把 `String` 换成自定义消息（在 `msg/` 里定义，再修改 `package.xml` 与 `setup.py`）。
+- 给 `listener` 加一点简单“业务逻辑”，例如统计消息速率、写入日志文件。
+- 在服务中引入参数服务器（`declare_parameter/get_parameter`），比如设置一个偏置量 `bias`，返回 `a+b+bias`。
+- 尝试用 `rqt_graph` / `ros2 doctor` 观察图结构与健康状态。
 
 ---
 

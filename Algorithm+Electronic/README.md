@@ -62,6 +62,17 @@ graph TD
     D --> F[4-ROS2 Lesson-1: 机器人操作系统]
 ```
 
+## 系统环境要求
+
+本课程专为以下环境设计和测试：
+
+- **操作系统**: Ubuntu 22.04 LTS
+- **ROS 版本**: ROS2 Humble Hawksbill
+- **Python 版本**: Python 3.8+
+- **开发工具**: VS Code, Git, CMake
+
+> ⚠️ **重要**: 为确保课程内容的兼容性和稳定性，强烈建议使用指定的 Ubuntu 22.04 + ROS2 Humble 组合。
+
 ## 前置要求
 
 - 具备基本的计算机操作能力
@@ -85,7 +96,7 @@ graph TD
 
 - **课程代码仓库**: 本仓库
 - **在线资源**: [CS 自学指南](https://csdiy.wiki/)
-- **开发环境**: VS Code + Python 3.8+ + Ubuntu 22.04
+- **开发环境**: VS Code + Python 3.8+ + Ubuntu 22.04 + ROS2 Humble
 - **AI 工具**: GitHub Copilot, ChatGPT, Claude 等
 - **官方文档**: Python、OpenCV、Ubuntu 官方文档
 

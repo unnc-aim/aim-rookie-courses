@@ -1,10 +1,10 @@
-[cpp版](https://github.com/UNNC-AIM/2026-AIM-Courses/tree/main/Algorithm%2BElectronic/4-ROS2/README.cpp.md)
-
 # ROS 2 Lesson-1：虚拟机环境下的节点、订阅与服务实战
 
-> 目标：在虚拟机里完成一个最小可跑的 ROS 2 项目（Python 实现），包含一个发布者节点、一个订阅者节点，以及一个简单的加法服务与客户端。
+[C++ 版请看这里](../Cpp/README.md)
 
-> 适用：Ubuntu + ROS 2（任意发行版，文中以环境变量 `$ROS_DISTRO` 表示，如 `humble` / `iron` / `jazzy` 等）。
+> 目标：在虚拟机里完成一个最小可跑的 ROS 2 项目（Python 实现），包含一个发布者节点、一个订阅者节点，以及一个简单的加法服务与客户端。
+>
+> 适用：Ubuntu 22.04 + ROS2 Humble
 
 ---
 
@@ -22,7 +22,7 @@ cd ~/ros2-ws
 
 ## 2. 准备依赖与环境
 
-确保已安装 ROS 2（任意发行版均可）。若尚未安装，请参考 ROS 2 官方安装指引（根据你的 Ubuntu 版本与目标发行版选择）。下面仅安装常用开发工具：
+确保已安装 ROS 2 Humble。若尚未安装，请参考 [ROS 2 Humble 官方安装指引](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)。下面仅安装常用开发工具：
 
 ```bash
 sudo apt update
@@ -34,10 +34,11 @@ sudo rosdep init || true
 rosdep update
 ```
 
-> 建议把 ROS 2 的环境自动写入 `~/.bashrc`：
+> 建议把 ROS 2 Humble 的环境自动写入 `~/.bashrc`：
 
 ```bash
-echo 'source /opt/ros/$ROS_DISTRO/setup.bash' >> ~/.bashrc
+echo '# 每个新终端都要先 source 环境
+source /opt/ros/humble/setup.bash' >> ~/.bashrc
 source ~/.bashrc
 ```
 
@@ -55,7 +56,7 @@ ros2 pkg create --build-type ament_python ros2_basics_demo \
 
 生成的包结构大致如下：
 
-```
+```text
 ros2_basics_demo/
   package.xml
   setup.cfg
@@ -257,14 +258,14 @@ source install/setup.bash
 
 打开两个终端（都要 `source` 工作空间环境）：
 
-**终端 A（发布者）**
+**_终端 A（发布者）_**
 
 ```bash
 source ~/ros2-ws/install/setup.bash
 ros2 run ros2_basics_demo talker
 ```
 
-**终端 B（订阅者）**
+**_终端 B（订阅者）_**
 
 ```bash
 source ~/ros2-ws/install/setup.bash
@@ -280,14 +281,14 @@ ros2 topic echo /chatter
 
 ### 6.3 运行服务与客户端
 
-**终端 C（服务端）**
+**_终端 C（服务端）_**
 
 ```bash
 source ~/ros2-ws/install/setup.bash
 ros2 run ros2_basics_demo add_two_ints_server
 ```
 
-**终端 D（客户端）**
+**_终端 D（客户端）_**
 
 ```bash
 source ~/ros2-ws/install/setup.bash
@@ -344,19 +345,19 @@ ros2 launch ros2_basics_demo demo_launch.py
 
 ## 8. 常见问题排查
 
-* **明明编译过但找不到可执行**：忘了 `source install/setup.bash`；或修改了 `entry_points` 却没重建。
-* **话题没数据**：确认 talker 正在运行、话题名一致（都是 `chatter`），`ros2 topic list` 查看是否存在。
-* **服务不可用**：客户端启动时会等待服务注册；确认服务端处于运行态，或用 `ros2 service list` 检查。
-* **环境冲突**：同机多发行版并存时，务必检查当前 `source` 的是哪个 `$ROS_DISTRO`。
+- **明明编译过但找不到可执行**：忘了 `source install/setup.bash`；或修改了 `entry_points` 却没重建。
+- **话题没数据**：确认 talker 正在运行、话题名一致（都是 `chatter`），`ros2 topic list` 查看是否存在。
+- **服务不可用**：客户端启动时会等待服务注册；确认服务端处于运行态，或用 `ros2 service list` 检查。
+- **环境冲突**：同机多发行版并存时，务必检查当前 `source` 的是 ROS2 Humble（`/opt/ros/humble/setup.bash`）。
 
 ---
 
 ## 9. 拓展与思考
 
-* 把 `String` 换成自定义消息（在 `msg/` 里定义，再修改 `package.xml` 与 `setup.py`）。
-* 给 `listener` 加一点简单“业务逻辑”，例如统计消息速率、写入日志文件。
-* 在服务中引入参数服务器（`declare_parameter/get_parameter`），比如设置一个偏置量 `bias`，返回 `a+b+bias`。
-* 尝试用 `rqt_graph` / `ros2 doctor` 观察图结构与健康状态。
+- 把 `String` 换成自定义消息（在 `msg/` 里定义，再修改 `package.xml` 与 `setup.py`）。
+- 给 `listener` 加一点简单“业务逻辑”，例如统计消息速率、写入日志文件。
+- 在服务中引入参数服务器（`declare_parameter/get_parameter`），比如设置一个偏置量 `bias`，返回 `a+b+bias`。
+- 尝试用 `rqt_graph` / `ros2 doctor` 观察图结构与健康状态。
 
 ---
 

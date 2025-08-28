@@ -1,11 +1,14 @@
 {
     "cSpell.words": [
         "adduser",
+        "ament",
+        "argcomplete",
         "armor",
         "autoclean",
         "autoremove",
         "btop",
         "classmethod",
+        "colcon",
         "cout",
         "CSDIY",
         "defense",
@@ -18,6 +21,7 @@
         "hasattr",
         "imread",
         "imwrite",
+        "Ints",
         "isdigit",
         "isinstance",
         "isoformat",
@@ -30,10 +34,15 @@
         "newuser",
         "nohup",
         "objdetect",
+        "pytest",
         "randint",
+        "rclpy",
         "repr",
+        "resp",
         "Robo",
         "robomaster",
+        "rosdep",
+        "setuptools",
         "staticmethod",
         "tlnp"
     ]

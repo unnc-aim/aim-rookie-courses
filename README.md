@@ -104,8 +104,8 @@
 
 ### 软件工具
 
-**通用**：Git、VS Code、虚拟机
-**算法/电控**：Python、OpenCV、Linux 工具链
+**通用**：Git、VS Code、虚拟机（Ubuntu 22.04）  
+**算法/电控**：Python、OpenCV、ROS2 Humble、Linux 工具链  
 **机械**：Autodesk Inventor、AutoCAD、有限元分析软件
 
 ### 硬件要求
@@ -165,8 +165,8 @@
 
 - 周 1-3：Python 编程（3 周）
 - 周 4：OS 基础
-<!-- - 周 5：OpenCV 实战 -->
-<!-- - 周 6：综合项目 -->
+  <!-- - 周 5：OpenCV 实战 -->
+  <!-- - 周 6：综合项目 -->
 
 ### 机械方向（约 8-10 周）
 
