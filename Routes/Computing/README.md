@@ -4,7 +4,13 @@
 
 **算法组**和**电控组**成员共同学习路线
 
-## 🌳 学习路径树状图
+## 学习资料
+
+Python 编程：[点击查看](../../Contents/Python/README.md)
+OS 基础：[点击查看](../../Contents/OS-Basic/README.md)
+ROS2 系统：[点击查看](../../Contents/ROS2/README.md)
+
+## 学习路径
 
 ```mermaid
 graph TD

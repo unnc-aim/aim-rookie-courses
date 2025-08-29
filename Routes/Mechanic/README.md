@@ -4,7 +4,11 @@
 
 **机械组**成员学习路线
 
-## 🌳 学习路径树状图
+## 学习资料
+
+Mechanical 机械内容：[点击查看](../../Contents/Mechanic/README.md)
+
+## 学习路径
 
 ```mermaid
 graph TD
