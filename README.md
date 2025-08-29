@@ -25,7 +25,7 @@
 - `Computing/` - 算法和电控方向学习路线
 - `Mechanic/` - 机械方向学习路线
 
-### 📊 学习架构关系图
+### 📊 学习路线分支图
 
 ```mermaid
 graph TD
@@ -41,25 +41,9 @@ graph TD
     F --> H[Aiming 自瞄系统]
     F --> I[Radar 雷达系统]
 
-    J[共同基础课程] --> K[Python 编程]
-    J --> L[OS 基础]
-    J --> M[ROS2 系统]
-
-    K --> B
-    L --> B
-    M --> B
-
-    N[专业课程] --> O[OpenCV 视觉]
-    N --> P[机械设计]
-
-    O --> F
-    P --> C
-
     style A fill:#e1f5fe
     style B fill:#f3e5f5
     style C fill:#e8f5e8
-    style J fill:#fff3e0
-    style N fill:#fce4ec
 ```
 
 ### 🔄 使用流程
