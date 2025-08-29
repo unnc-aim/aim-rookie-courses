@@ -2,6 +2,7 @@
     "recommendations": [
         "streetsidesoftware.code-spell-checker",
         "davidanson.vscode-markdownlint",
-        "github.vscode-pull-request-github"
+        "github.vscode-pull-request-github",
+        "bierner.markdown-mermaid"
     ]
 }

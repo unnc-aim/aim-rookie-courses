@@ -54,7 +54,7 @@
 **下载必要软件：**
 
 1. VirtualBox（免费）或 VMware Workstation
-2. Ubuntu 22.04 LTS Desktop ISO 镜像
+2. Ubuntu 22.04 LTS Desktop ISO 镜像（推荐版本）
 3. 确保主机有足够的资源（内存 8GB+，硬盘空间 20GB+）
 
 **虚拟机配置建议：**
