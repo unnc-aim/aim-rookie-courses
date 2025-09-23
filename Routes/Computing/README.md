@@ -7,6 +7,7 @@
 ## 学习资料
 
 Python 编程：[点击查看](../../Contents/Python/README.md)
+Cpp 编程：[点击查看](../../Contents/Cpp/README.md)
 OS 基础：[点击查看](../../Contents/OS-Basic/README.md)
 ROS2 系统：[点击查看](../../Contents/ROS2/README.md)
 
@@ -19,6 +20,7 @@ graph TD
     A --> D[🎓 进阶内容]
 
     B --> E[📄 Python 编程<br/>→ Contents/Python/]
+    B --> H[Cpp 编程<br/>→ Contents/Cpp/]
     B --> F[💻 OS 基础<br/>→ Contents/OS-Basic/]
     B --> G[🤖 ROS2 系统<br/>→ Contents/ROS2/]
 
@@ -27,6 +29,8 @@ graph TD
     E --> E3[Lesson-3: 面向对象]
 
     F --> F1[Linux 系统基础]
+
+    H --> H1[python内容迁移]
 
     G --> G1[Cpp版本教程]
     G --> G2[Python版本教程]
@@ -63,11 +67,12 @@ graph TD
 
 ## 📚 学习顺序建议
 
-### 第一阶段：基础能力建设 (4-5 周)
+### 第一阶段：基础能力建设 (9 周)
 
-1. **Python 编程** (3 周) - 编程基础，为后续学习打下基础
-2. **OS 基础** (1 周) - Linux 环境熟悉，开发环境搭建
-3. **ROS2 系统** (1 周) - 机器人框架基础
+1. **Python 编程** (4 周) - 编程基础，为后续学习打下基础
+2. **Cpp 编程** （2 周）- 由 Python 转向 Cpp 编写
+3. **OS 基础** (1 周) - Linux 环境熟悉，开发环境搭建
+4. **ROS2 系统** (2 周) - 机器人框架基础
 
 ### 第二阶段：专业方向选择 (2-3 周)
 
