@@ -6,9 +6,11 @@
         "armor",
         "autoclean",
         "autoremove",
+        "bilibili",
         "btop",
         "classmethod",
         "colcon",
+        "COMSOL",
         "cout",
         "CSDIY",
         "defense",
@@ -19,6 +21,7 @@
         "haarcascade",
         "haarcascades",
         "hasattr",
+        "HUSTROBOCON",
         "imread",
         "imwrite",
         "Ints",
@@ -43,6 +46,7 @@
         "robomaster",
         "rosdep",
         "setuptools",
+        "Simulink",
         "staticmethod",
         "tlnp"
     ]

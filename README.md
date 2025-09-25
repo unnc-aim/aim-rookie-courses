@@ -138,17 +138,16 @@ graph TD
 
 ### 软件工具
 
-**通用**：Git、VS Code、虚拟机（Ubuntu 22.04）  
-**算法/电控**：Python、Cpp、OpenCV、ROS2 Humble、Linux 工具链  
-**机械**：Autodesk Inventor、AutoCAD、有限元分析软件
+**算法/电控**：Git、VS Code、虚拟机（Ubuntu 22.04）、Python、Cpp、OpenCV、ROS2 Humble、Linux 工具链
+**机械**：Autodesk Inventor
 
 ### 硬件要求
 
-- 电控/算法 Windows 或 macOS 皆可，机械组需要 Windows
+- 系统：电控/算法 Windows 或 macOS 皆可，机械组需要 Windows
 - 内存：8GB+ （推荐 16GB+）
 - 硬盘：50GB+可用空间
-- 处理器：支持虚拟化的 64 位 CPU
-- 网络：稳定的互联网连接
+- 处理器：电控/算法 如是 Windows 需要支持虚拟化的 64 位 CPU
+- 网络：稳定的互联网连接，如果不在学校网络环境下需要代理
 
 ## 📖 学习资源
 
@@ -183,19 +182,3 @@ graph TD
    - 查看各模块的详细文档
    - 在课程群组中提问交流
    - 利用 AI 工具辅助学习
-
-## 📊 课程时间安排
-
-### 算法/电控方向（约 9 周）
-
-- 周 1-4：Python 编程（4 周）
-- 周 5-6：Cpp 编程（2 周）
-- 周 7：OS 基础（1 周）
-- 周 8-9：ROS2 基础（2 周）
-
-### 机械方向（约 8-10 周）
-
-- 周 1-2：Inventor 入门
-- 周 3-5：基础力学
-- 周 6-8：基础结构
-- 周 9-10：最终设计项目

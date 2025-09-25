@@ -74,12 +74,6 @@ OS 基础模块包含 1 节课程，专注于 Linux 操作系统的基础知识�
 - [Ubuntu 官方文档](https://help.ubuntu.com/)
 - [Linux 命令行参考](https://www.gnu.org/software/bash/manual/)
 
-### 推荐书籍
-
-- 《鸟哥的 Linux 私房菜》
-- 《Linux 命令行大全》
-- 《Ubuntu 权威指南》
-
 ### 在线资源
 
 - [Ubuntu 中文社区](https://cn.ubuntu.com/)
