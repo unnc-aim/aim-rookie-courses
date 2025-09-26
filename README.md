@@ -24,7 +24,11 @@
 按战队组别组织的个性化学习路径：
 
 - `Computing/` - 算法和电控方向学习路线
+- `Computing/Algorithm` - 算法学习路线
+- `Computing/Electronic` - 电控（嵌入式）学习路线
 - `Mechanic/` - 机械方向学习路线
+
+其中 Computing 目录下的 `README.md` 文件会指导算法/电控方向的同学需要共同学习的内容，依此类推
 
 ### 📊 学习路线分支图
 
