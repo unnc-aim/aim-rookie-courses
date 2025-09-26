@@ -164,8 +164,8 @@ graph TD
 2. **克隆课程仓库**
 
    ```bash
-   git clone https://github.com/UNNC-AIM/2026-AIM-Courses.git
-   cd 2026-AIM-Courses
+   git clone https://github.com/unnc-aim/aim-rookie-courses.git
+   cd aim-rookie-courses
    ```
 
 3. **查看学习路线**
