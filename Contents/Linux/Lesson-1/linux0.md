@@ -30,7 +30,7 @@ sudo apt install [program]
 
 不仅如此，Linux 运行程序的速度比 Windows 更快。比如在 Blander 上进行渲染，Windows 用户会多花 30%的时间，而在开发环境 ESP32 中，根据乐鑫（ESP32 的厂商）的说法，编译相同程序时，Linux 用户只需要使用 Windows 用户一半的时间。
 
-> Steam Deck 使用的就是 Arch Linux。
+> Steam Deck 使用的就是 Arch Linux 的一个改版分支 SteamOS。
 
 除此之外，Linux 内核是可以根据用户的需求进行定制的。比如，在一些对实时性需求较高（工业生产，机器人......）的情境下，Linux 用户可以在内核添加功能，自行编译一个符合自己需求的内核。
 
@@ -41,7 +41,7 @@ sudo apt install [program]
 > Ubuntu 默认使用 Gnome 桌面环境，对，就是 GNU 的一部分。使用 KDE 桌面环境、基于 Ubuntu 的发行版被成为 Kubuntu，类似的还有 Lubuntu 和 Mint，当然他们除了桌面环境可能会有变化外也会有一些其他的自带工具。
 > Linus 非常讨厌 Debian，因为早期 Debian 十分难以安装。不过对于现在的 Ubuntu 而言，你会有直观的图形安装环境--相信我，它会比安装 Windows 更简单。想要体会一下 1999 年的 Debian 安装有多难受可以观看视频：<https://www.bilibili.com/video/BV1hf4y1N7BS/?spm_id_from=333.337.search-card.all.click&vd_source=271e405cd9556c7b3c77c6d0da84fb3b>
 > 对了，Ubuntu 这个发行版是基于 Debian 的一个发行版，这些基于 Debian 的发行版 ~~以及基于 Debian 发行版的发行版或者基于 Debian 发行版的发行版的发行版%#￥！#@%\*&~~ 被成为 Debian 系。类似的还有 REHL 系，Arch 系等。前文提到的 apt 则是 Debian 系 Linux 的一个特有的**包管理系统**，之后的篇章会提到。
-> 顺带一提，ROS2 可以运行在 Windows 上，但是为了~~白嫖他人的劳动成果~~使用更多 ROS 社区上已完成的功能包、加快开发进度，我们依然使用 ROS noetic。
+> 顺带一提，ROS2 可以运行在 Windows 上，但是为了~~白嫖他人的劳动成果~~使用更多 ROS 社区上已完成的功能包、加快开发进度，我们依然使用 ROS humble。
 
 **总而言之，希望大家可以享受学习 Linux 的过程。**
 

@@ -30,7 +30,7 @@ animex@LAPTOP-6966S4BS:~$ pwd
 /home/animex
 ```
 
-> 细心观察会发现，Windows 上分隔父/子目录时使用的是`\`，而 Linux 是`/`。这是由于 Windows 基于 MS-DOS 开发，而`/`键在 MS-DOS 被移作他用（软盘的装载命令？找不到资料了）。Windows CMD 也可以识别`/`，但是 Linux 无法识别`\`。因此，在程序开发的时候统一使用`/`即可。
+> 细心观察会发现，Windows 上分隔父/子目录时使用的是`\`(anti-slash)，而 Linux 是`/`(slash)。这是由于 Windows 基于 MS-DOS 开发，而`/`键在 MS-DOS 被移作他用（软盘的装载命令？找不到资料了）。Windows CMD 也可以识别`/`，但是 Linux 无法识别`\`。因此，在程序开发的时候统一使用`/`即可。
 
 pwd 命令会输出用户所在的目录的**绝对路径**。绝对路径即以根目录为参考点，目录/文件的所在位置，类似的还有**相对路径**，即以当前终端所操作的文件目录位置为参考点，目标目录/文件的位置。
 
@@ -39,7 +39,7 @@ pwd 命令会输出用户所在的目录的**绝对路径**。绝对路径即以
 是时候讲解根目录的第一个一级目录，`home` 了。这一目录用于存储用户的根目录，结构类似下图：
 
 ```txt
-home-|--Usr1
+home----Usr1
      |
      |--Usr2
      |
@@ -175,7 +175,7 @@ Mandatory arguments to long options are mandatory for short options too.
 将你想要获取指导的命令作为参数，使用 man 命令，以使用命令`man man`为例获取`man`的`man`，结果如下：
 
 ```bash
-man man
+man man  # what can I say?
 ```
 
 ```txt

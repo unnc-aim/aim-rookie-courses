@@ -72,6 +72,8 @@ cat file1
 cat file1 >> file2
 ```
 
+这就是传说中的**重定向**。当然，Linux 的命令远不止这些，后续章节会慢慢介绍。
+
 ## Everything is a file
 
 对于 Linux 的用户而言，**_Everything is a file_**。这句话可能会让大家觉得一头雾水。这里只是先让大家有一个概念，比如，在 Linux 中使用摄像头，具体到操作上是使用对应的应用打开一个文件。
