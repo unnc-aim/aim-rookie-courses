@@ -16,7 +16,7 @@ graph TD
     A --> G[🎓 高级应用]
 
     B --> B1[📄 Python 编程<br/>→ Contents/Python/]
-    B --> B2[� OS 基础<br/>→ Contents/OS-Basic/]
+    B --> B2[� Linux 基础<br/>→ Contents/Linux/]
     B --> B3[🤖 ROS2 系统<br/>→ Contents/ROS2/]
 
     C --> C1[⚡ 电路原理]
@@ -100,7 +100,7 @@ graph TD
 
 ### 前置要求
 
-完成 Computing 基础课程：Python + OS + ROS2
+完成 Computing 基础课程：Python + Linux + Cpp + ROS2
 
 ### 第一阶段：硬件基础 (4-5 周)
 

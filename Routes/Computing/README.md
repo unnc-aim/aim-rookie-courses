@@ -7,7 +7,7 @@
 ## 学习资料
 
 Python 编程：[点击查看](../../Contents/Python/README.md)
-OS 基础：[点击查看](../../Contents/OS-Basic/README.md)
+Linux 基础：[点击查看](../../Contents/Linux/README.md)
 Cpp 编程：[点击查看](../../Contents/Cpp/README.md)
 ROS2 系统：[点击查看](../../Contents/ROS2/README.md)
 
@@ -20,7 +20,7 @@ graph TD
     A --> D[🎓 进阶内容]
 
     B --> E[📄 Python 编程<br/>→ Contents/Python/]
-    B --> F[🐧 OS 基础<br/>→ Contents/OS-Basic/]
+    B --> F[🐧 Linux 基础+进阶<br/>→ Contents/Linux/]
     B --> G[🅲 Cpp 编程<br/>→ Contents/Cpp/]
     B --> L[🤖 ROS2 系统<br/>→ Contents/ROS2/]
 
@@ -62,7 +62,7 @@ graph TD
 ### 第一阶段：基础能力建设 (6-7 周)
 
 1. **Python 编程** (国庆 4 天特训) - 编程基础，为后续学习打下基础
-2. **OS 基础** (1 周) - Linux 环境熟悉，开发环境搭建
+2. **Linux 基础** (1 周) - Linux 环境熟悉，开发环境搭建
 3. **Cpp 编程** （2 周）- 由 Python 转向 Cpp 编写
 4. **ROS2 系统** (2 周) - 机器人框架基础
 

@@ -1,4 +1,4 @@
-# OS-Basic Lesson-1: Linux 系统基础和命令行操作
+# Linux Lesson-1: Linux 系统基础和命令行操作
 
 ## 课程信息
 
