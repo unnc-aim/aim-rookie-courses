@@ -51,14 +51,13 @@ OS 基础模块包含 1 节课程，专注于 Linux 操作系统的基础知识�
 - 具备基本的系统管理能力
 - 能够配置开发环境和安装软件
 - 掌握 SSH 远程连接和文件传输
-- 为 RoboMaster 项目开发做好系统准备
 
 ## 开发环境
 
 ### 必需软件
 
 - VMware (Windows) 或 Parallels (macOS) 虚拟机软件
-- Ubuntu 22.04 LTS 镜像文件（使用x86_64版本，macOS使用转译运行）
+- Ubuntu 22.04 LTS 镜像文件（使用 x86_64 版本，macOS 使用转译运行）
 - 足够的硬盘空间（至少 20GB）
 
 ### 推荐配置
@@ -80,8 +79,10 @@ OS 基础模块包含 1 节课程，专注于 Linux 操作系统的基础知识�
 - [Linux 命令查询](https://man.linuxde.net/)
 - [Shell 脚本教程](https://www.shellscript.sh/)
 
-## 评估标准
+### 贡献者
 
-- **实操能力**（50%）：能否独立完成系统操作任务
-- **命令掌握**（30%）：常用 Linux 命令的熟练程度
-- **问题解决**（20%）：遇到问题时的分析和解决能力
+- [Animex77/linux-tutorial](https://github.com/Animex77/linux-tutorial) - 由 UNNC-AIM 前队长整理的 Linux 系统教程
+
+### 参考资料
+
+- `Shotts, W. E. (2019). The Linux command line : a complete introduction (Second edition.). No Starch Press. https://ebookcentral.proquest.com/lib/nottingham/detail.action?docID=5742324`
