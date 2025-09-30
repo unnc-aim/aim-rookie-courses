@@ -45,10 +45,6 @@ graph TD
 
     F --> H[Aiming 自瞄系统]
     F --> I[Radar 雷达系统]
-
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
 ```
 
 ### 🔄 使用流程
@@ -96,11 +92,6 @@ graph TD
 **_机械方向_**
 
 - **机械设计**：3D 建模、力学分析、结构设计
-
-> � **详细学习路线请查看：**
->
-> - [算法/电控方向学习路线](./Routes/Computing/README.md)
-> - [机械方向学习路线](./Routes/Mechanic/README.md)
 
 ## 🎯 培养目标
 
@@ -161,28 +152,6 @@ graph TD
 - [RoboMaster 官方技术论坛](https://www.robomaster.com/) - 比赛技术交流
 - [Autodesk 教育版](https://www.autodesk.com/education/) - 免费软件下载
 
-## 🚀 快速开始
+## 🚀 本地环境配置指南 / 快速开始
 
-1. **选择专业方向**：根据兴趣和职业规划选择算法/电控或机械方向
-
-2. **克隆课程仓库**
-
-   ```bash
-   git clone https://github.com/unnc-aim/aim-rookie-courses.git
-   cd aim-rookie-courses
-   ```
-
-3. **查看学习路线**
-
-   - 算法/电控：查看 `Routes/Computing/` 目录了解学习路径
-   - 机械：查看 `Routes/Mechanic/` 目录了解学习路径
-
-4. **开始学习**
-
-   - 按照路线指导，进入 `Contents/` 目录学习具体课程内容
-   - 从基础课程开始，逐步深入专业内容
-
-5. **获得帮助**
-   - 查看各模块的详细文档
-   - 在课程群组中提问交流
-   - 利用 AI 工具辅助学习
+- 请移步 [ENV_SETUP.md](./ENV_SETUP.md)

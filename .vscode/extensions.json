@@ -3,6 +3,20 @@
         "streetsidesoftware.code-spell-checker",
         "davidanson.vscode-markdownlint",
         "github.vscode-pull-request-github",
-        "bierner.markdown-mermaid"
+        "bierner.markdown-mermaid",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode.remote-explorer",
+        "ms-vscode.remote-server",
+        "usernamehw.errorlens",
+        "ms-azuretools.vscode-containers",
+        "github.copilot",
+        "github.copilot-chat",
+        "eamodio.gitlens",
+        "ms-toolsai.jupyter",
+        "ms-vsliveshare.vsliveshare",
+        "yzhang.markdown-all-in-one",
+        "christian-kohler.path-intellisense",
     ]
 }
