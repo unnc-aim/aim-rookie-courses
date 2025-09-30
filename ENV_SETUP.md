@@ -34,7 +34,7 @@
 - Git / GitHub 相关
   - eamodio.gitlens # Git 增强 / inline 显示
   - github.vscode-pull-request-github # GitHub PR 管理
-  - github.copilot # AI 编程助手
+  - github.copilot # AI 编程助手 （GitHub Education 免费申请教程请移步 [这里](https://github.com/unnc-aim/aim-tutorial/tree/main/GitHubEducation)）
   - github.copilot-chat # AI 编程助手聊天
 - 拼写检查
   - streetsidesoftware.code-spell-checker # 拼写检查
