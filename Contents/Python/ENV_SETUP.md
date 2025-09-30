@@ -80,21 +80,33 @@ python3 --version
 >
 > 以及，为了更好地阅读 Jupyter Notebook 文件（.ipynb），推荐安装拓展包 ⬇️
 >
-> - ms-toolsai.jupyter  # Jupyter Notebook 支持
+> - ms-toolsai.jupyter # Jupyter Notebook 支持
 
-### 配置 Python 解释器
+### 配置 Python 解释器（简单）
 
 1. 打开一个 Python 文件（.py）。
 2. 在右下角点击 Python 版本号，选择刚安装的 Python 解释器路径。
    如果没有看到版本号，可以按 `Ctrl+Shift+P`（macOS 上是 `Cmd+Shift+P`），输入并选择 `Python: Select Interpreter`，然后选择正确的解释器。
 3. 现在你可以在 VS Code 中编写和运行 Python 代码了。
 
-> 你可能会发现一个问题，如果你直接使用系统的 Python 解释器，可能会遇到权限问题，或者不同项目间的依赖冲突。  
-> 为了解决这个问题，我们推荐使用虚拟环境（virtual environment），为每一个项目创建一个定制的运行环境，也可以在每个环境中安装每个项目需要的 pip requirements。  
-> 你可以使用 `venv` 模块来创建虚拟环境，VS Code 中具体实现步骤如下：
->
-> 1. 在右下角点击 Python 版本号，选择 `+ Create Virtual Environment`，然后选 `.venv`。
-> 2. 选择 Python 解释器（你之前安装的版本）作为基础，VS Code 会自动为你创建并激活虚拟环境。
->
-> 之后你可以在 VS Code 中打开新的终端时，VS Code 会自动帮你激活你项目根目录下的 `.venv` 包含的环境，此时使用 `pip install` 来安装项目所需的包，这些包只会安装在当前虚拟环境中，不会影响全局 Python 环境。  
-> 如果你在 VS Code 之外的终端中工作，或者 VS Code 没有正确检测到项目中的 venv 环境，你可能需要手动激活虚拟环境。这部分自己上网搜教程。
+### 配置虚拟环境（推荐）
+
+你可能会发现一个问题，如果你直接使用系统的 Python 解释器，可能会遇到权限问题，或者不同项目间的依赖冲突。  
+为了解决这个问题，我们推荐使用虚拟环境（virtual environment），为每一个项目创建一个定制的运行环境，也可以在每个环境中安装每个项目需要的 pip requirements。  
+你可以使用 `venv` 模块来创建虚拟环境，VS Code 中具体实现步骤如下：
+
+1. 在右下角点击 Python 版本号，选择 `+ Create Virtual Environment`，然后选 `.venv`。
+2. 选择 Python 解释器（你之前安装的版本）作为基础，VS Code 会自动为你创建并激活虚拟环境。
+
+之后你可以在 VS Code 中打开新的终端时，VS Code 会自动帮你激活你项目根目录下的 `.venv` 包含的环境，此时使用 `pip install` 来安装项目所需的包，这些包只会安装在当前虚拟环境中，不会影响全局 Python 环境。  
+如果你在 VS Code 之外的终端中工作，或者 VS Code 没有正确检测到项目中的 venv 环境，你可能需要手动激活虚拟环境。这部分自己上网搜教程。
+
+然后，你就可以正常打开项目中的 .ipynb 文件，运行里面的代码单元了。  
+运行时如果提示没有找到内核（kernel），点击选择内核，选择你刚刚配置的 venv 解释器即可。
+
+## 提示
+
+- 如果你在安装或配置过程中遇到问题，可以参考 [Python 官方文档](https://docs.python.org/3/) 或 [VS Code 官方文档](https://code.visualstudio.com/docs)。
+- 你也可以 google 相关问题，通常会有很多有用的资源
+- 当然你也可以直接问 AI，比如 ChatGPT 或者直接在 VS Code 中打开 GitHub Copilot Chat 进行提问。
+- 重要的是，你要学会先下意识尝试自己解决问题，如果不能解决，再思考如何向人类提出高质量的问题。
