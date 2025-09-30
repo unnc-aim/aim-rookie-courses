@@ -13,8 +13,8 @@
 存放所有教学资源和具体课程内容：
 
 - `Python/` - Python 编程基础课程（3 节课）
-- `Cpp/` - Cpp编程基础课程
-- `OS-Basic/` - 操作系统基础课程
+- `Cpp/` - Cpp 编程基础课程
+- `Linux/` - Linux 系统基础课程
 - `OpenCV/` - 计算机视觉课程
 - `ROS2/` - 机器人操作系统课程
 - `Mechanic/` - 机械设计课程
@@ -24,7 +24,11 @@
 按战队组别组织的个性化学习路径：
 
 - `Computing/` - 算法和电控方向学习路线
+- `Computing/Algorithm` - 算法学习路线
+- `Computing/Electronic` - 电控（嵌入式）学习路线
 - `Mechanic/` - 机械方向学习路线
+
+其中 Computing 目录下的 `README.md` 文件会指导算法/电控方向的同学需要共同学习的内容，依此类推
 
 ### 📊 学习路线分支图
 
@@ -79,17 +83,17 @@ graph TD
 
 - **Python 编程**：编程基础语法、数据结构、面向对象编程
 - **Cpp 编程**：Python 知识迁移
-- **OS 基础**：Linux 系统操作、命令行工具、开发环境配置
+- **Linux 基础**：Linux 系统操作、命令行工具、开发环境配置
 - **ROS2 系统**：机器人操作系统基础
 
 ### 专业方向模块
 
-***算法/电控方向***
+**_算法/电控方向_**
 
 - **OpenCV 视觉**：计算机视觉基础、图像处理
 - **算法深化**：导航算法、视觉算法（自瞄、雷达）
 
-***机械方向***
+**_机械方向_**
 
 - **机械设计**：3D 建模、力学分析、结构设计
 
@@ -138,17 +142,16 @@ graph TD
 
 ### 软件工具
 
-**通用**：Git、VS Code、虚拟机（Ubuntu 22.04）  
-**算法/电控**：Python、Cpp、OpenCV、ROS2 Humble、Linux 工具链  
-**机械**：Autodesk Inventor、AutoCAD、有限元分析软件
+**算法/电控**：Git、VS Code、虚拟机（Ubuntu 22.04）、Python、Cpp、OpenCV、ROS2 Humble、Linux 工具链
+**机械**：Autodesk Inventor
 
 ### 硬件要求
 
-- 电控/算法 Windows 或 macOS 皆可，机械组需要 Windows
+- 系统：电控/算法 Windows 或 macOS 皆可，机械组需要 Windows
 - 内存：8GB+ （推荐 16GB+）
 - 硬盘：50GB+可用空间
-- 处理器：支持虚拟化的 64 位 CPU
-- 网络：稳定的互联网连接
+- 处理器：电控/算法 如是 Windows 需要支持虚拟化的 64 位 CPU
+- 网络：稳定的互联网连接，如果不在学校网络环境下需要代理
 
 ## 📖 学习资源
 
@@ -165,8 +168,8 @@ graph TD
 2. **克隆课程仓库**
 
    ```bash
-   git clone https://github.com/UNNC-AIM/2026-AIM-Courses.git
-   cd 2026-AIM-Courses
+   git clone https://github.com/unnc-aim/aim-rookie-courses.git
+   cd aim-rookie-courses
    ```
 
 3. **查看学习路线**
@@ -183,19 +186,3 @@ graph TD
    - 查看各模块的详细文档
    - 在课程群组中提问交流
    - 利用 AI 工具辅助学习
-
-## 📊 课程时间安排
-
-### 算法/电控方向（约 9 周）
-
-- 周 1-4：Python 编程（4 周）
-- 周 5-6：Cpp 编程（2 周）
-- 周 7：OS 基础（1 周）
-- 周 8-9：ROS2 基础（2 周）
-
-### 机械方向（约 8-10 周）
-
-- 周 1-2：Inventor 入门
-- 周 3-5：基础力学
-- 周 6-8：基础结构
-- 周 9-10：最终设计项目

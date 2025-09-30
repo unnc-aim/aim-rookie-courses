@@ -15,7 +15,7 @@ graph TD
     A --> F[🎓 进阶技术]
 
     B --> B1[📄 Python 编程<br/>→ Contents/Python/]
-    B --> B2[� OS 基础<br/>→ Contents/OS-Basic/]
+    B --> B2[🐧 Linux 基础<br/>→ Contents/Linux/]
     B --> B3[🤖 ROS2 系统<br/>→ Contents/ROS2/]
 
     C --> C1[📐 坐标系统与变换]
@@ -111,7 +111,7 @@ graph TD
 
 ### 前置要求
 
-完成 Computing 基础课程：Python + OS + ROS2
+完成 Computing 基础课程：Python + Linux + ROS2
 
 ### 第一阶段：理论基础 (3-4 周)
 
