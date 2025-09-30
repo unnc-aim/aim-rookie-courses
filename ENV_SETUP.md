@@ -16,7 +16,7 @@
 
 > 打开 VS Code。  
 > 点击左侧扩展图标（四个方块组成的图标）。
-> 在搜索栏输入 `扩展名称` or `ID` （下面列举的都是 `ID`， 复制 `#` 前的一串即可搜索到唯一对应的插件），点击 install 即可。
+> 在搜索栏输入 `扩展名称` or `ID` （下面列举的都是 `ID`， 复制 `#` 前的一串即可搜索到唯一对应的插件），点击 install 就可以开始安装。(如果提示是否信任，点 `Trust` 即可)
 > 我已经将这些插件放入项目的 `.vscode/extensions.json` 文件中，打开本项目时，VS Code 会提示你安装推荐的插件。
 
 #### 啥项目都能用的
@@ -34,7 +34,7 @@
 - Git / GitHub 相关
   - eamodio.gitlens # Git 增强 / inline 显示
   - github.vscode-pull-request-github # GitHub PR 管理
-  - github.copilot # AI 编程助手
+  - github.copilot # AI 编程助手 （GitHub Education 免费申请教程请移步 [这里](https://github.com/unnc-aim/aim-tutorial/tree/main/GitHubEducation)）
   - github.copilot-chat # AI 编程助手聊天
 - 拼写检查
   - streetsidesoftware.code-spell-checker # 拼写检查
