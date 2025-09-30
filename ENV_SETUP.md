@@ -72,12 +72,39 @@
 
 ### 克隆项目
 
-你可以下载安装好的 Git GUI 工具（比如 [GitHub Desktop](https://desktop.github.com/)），也可以直接在命令行中使用 git。
+#### GUI
+
+你可以下载安装好的 Git GUI 工具（比如 [GitHub Desktop](https://desktop.github.com/)）
+
+点进去上面的链接安装好后，打开 GitHub Desktop，选择 `File -> Clone Repository`，然后在弹出的窗口中选择 `URL` 标签页，输入项目的 URL：
+
+```text
+https://github.com/unnc-aim/aim-rookie-courses.git
+```
+
+选择你想存放项目的本地路径，然后点击 `Clone` 按钮即可。
+
+**或者**，也可以在 GitHub 项目的主页上点击 `Code -> Open with GitHub Desktop`，然后选择存放路径，点击 `Clone` 即可。
+
+GitHub Desktop 甚至可以有个按钮让你可以直接用 VS Code / PyCharm (默认先装的那个) 打开项目。
+
+#### Command Line
+
+也可以直接在命令行中使用 git ⬇️
 
 ```bash
 # 记得连 eduroam 或者开魔法
+# 打开命令行（Windows 下可以使用 PowerShell 或者 Git Bash，macOS 下可以使用 Terminal）
+# cd 到你喜欢的目录，然后输入以下命令
 git clone https://github.com/unnc-aim/aim-rookie-courses.git
 ```
+
+> 什么？ 你不会用命令行？  
+> 没关系，Google 一下 `Windows/macOS如何打开命令行`  
+> 记得跳转到你想存放项目的目录下再执行 `git clone` 命令。  
+> 比如你想放在桌面上，可以先执行 `cd Desktop` (macOS 下是 `cd ~/Desktop`)。
+>
+> Git 和 命令行 这一块的内容我们 CPU 课会讲到，我们后续 Linux 课程也会讲到 Linux Shell，如果不够熟悉推荐后续来补课。
 
 然后你就可以在本地看到一个 `aim-rookie-courses` 的文件夹，里面就是本项目的所有内容。用 VS Code 打开这个文件夹即可。
 
