@@ -40,13 +40,13 @@
 
 ```python
 class Robot:
-    """机器人类"""
+    """机器人基类"""
 
     # 类属性（所有实例共享）
     game_version = "2024"
     robot_count = 0
 
-    def __init__(self, name, robot_type, hp=200):
+    def __init__(self, name, robot_type, hp):
         """构造函数：初始化对象"""
         self.name = name          # 实例属性
         self.robot_type = robot_type
@@ -58,6 +58,16 @@ class Robot:
         # 更新类属性
         Robot.robot_count += 1
 
+    def attack(self):
+        """攻击方法（基类版本）"""
+        return 0  # 基类不能攻击
+
+    def take_damage(self, damage):
+        """受到伤害"""
+        self.hp = max(0, self.hp - damage)
+        if self.hp == 0:
+            self.is_active = False
+
     def __str__(self):
         """字符串表示"""
         return f"Robot({self.name}, {self.robot_type}, HP:{self.hp})"
@@ -66,11 +76,12 @@ class Robot:
         """开发者表示"""
         return f"Robot('{self.name}', '{self.robot_type}', {self.hp})"
 
-# 创建对象实例
-hero = Robot("Hero-1", "Hero", 400)
-infantry = Robot("Infantry-1", "Infantry", 200)
+# 创建对象实例（根据真实规则设置血量）
+hero = Robot("Hero-1", "Hero", 600)      # 英雄血量厚
+infantry = Robot("Infantry-1", "Infantry", 200)  # 步兵标准血量
+engineer = Robot("Engineer-1", "Engineer", 250)  # 工程机器人中等血量
 
-print(hero)  # Robot(Hero-1, Hero, HP:400)
+print(hero)  # Robot(Hero-1, Hero, HP:600)
 print(f"总机器人数量: {Robot.robot_count}")
 ```
 
