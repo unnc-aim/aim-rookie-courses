@@ -45,10 +45,6 @@ graph TD
 
     F --> H[Aiming 自瞄系统]
     F --> I[Radar 雷达系统]
-
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
 ```
 
 ### 🔄 使用流程
