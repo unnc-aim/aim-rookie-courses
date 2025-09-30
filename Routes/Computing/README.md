@@ -6,9 +6,9 @@
 
 ## 学习资料
 
-Python 编程：[点击查看](../../Contents/Python/README.md)
-Linux 基础：[点击查看](../../Contents/Linux/README.md)
-Cpp 编程：[点击查看](../../Contents/Cpp/README.md)
+Python 编程：[点击查看](../../Contents/Python/README.md)  
+Linux 基础：[点击查看](../../Contents/Linux/README.md)  
+Cpp 编程：[点击查看](../../Contents/Cpp/README.md)  
 ROS2 系统：[点击查看](../../Contents/ROS2/README.md)
 
 ## 学习路径
@@ -57,7 +57,7 @@ graph TD
     D --> D3[系统集成与优化]
 ```
 
-## 📚 学习顺序建议
+## 📚 课程安排
 
 ### 第一阶段：基础能力建设 (6-7 周)
 
