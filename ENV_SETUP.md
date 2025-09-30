@@ -68,7 +68,7 @@
 > 为什么用 `git clone` 而不是直接下载 ZIP 包？因为后续我们会不断更新文档，使用 git 可以方便地同步最新的内容。  
 > 为什么用 VS Code 在本地打开而不是直接在浏览器里看？因为 VS Code 支持更多 Markdown 语法高亮，阅读体验更好。我们教程中还会涉及到 ipynb (Jupyter Notebook) 文件，VS Code 也能直接打开并在本地运行 Python 代码。
 
-如果你还没有安装 git，可以参考[这里](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)进行安装。
+如果你还没有安装 git，可以参考[这里](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)进行安装。所有选项默认即可。如有疑问可以 google 教程。
 
 ### 克隆项目
 
@@ -76,7 +76,7 @@
 
 你可以下载安装好的 Git GUI 工具（比如 [GitHub Desktop](https://desktop.github.com/)）
 
-点进去上面的链接安装好后，打开 GitHub Desktop，选择 `File -> Clone Repository`，然后在弹出的窗口中选择 `URL` 标签页，输入项目的 URL：
+点进去上面的链接，根据指示安装好后，打开 GitHub Desktop，选择 `File -> Clone Repository`，然后在弹出的窗口中选择 `URL` 标签页，输入项目的 URL：
 
 ```text
 https://github.com/unnc-aim/aim-rookie-courses.git
@@ -90,7 +90,7 @@ GitHub Desktop 甚至可以有个按钮让你可以直接用 VS Code / PyCharm (
 
 #### Command Line
 
-也可以直接在命令行中使用 git ⬇️
+也可以直接在命令行中使用 git 进行 clone 操作 ⬇️
 
 ```bash
 # 记得连 eduroam 或者开魔法
@@ -101,10 +101,10 @@ git clone https://github.com/unnc-aim/aim-rookie-courses.git
 
 > 什么？ 你不会用命令行？  
 > 没关系，Google 一下 `Windows/macOS如何打开命令行`  
-> 记得跳转到你想存放项目的目录下再执行 `git clone` 命令。  
+> 记得 cd 跳转到你想存放项目的目录下再执行 `git clone` 命令，或者干脆在你喜欢的目录直接打开也行。自己搜怎么做到。  
 > 比如你想放在桌面上，可以先执行 `cd Desktop` (macOS 下是 `cd ~/Desktop`)。
 >
-> Git 和 命令行 这一块的内容我们 CPU 课会讲到，我们后续 Linux 课程也会讲到 Linux Shell，如果不够熟悉推荐后续来补课。
+> Git 和 命令行 这一块的内容我们 CPU 周常很快会有课程讲到，我们 AIM 后续 Linux 课程也会讲到 Linux Shell，如果不够熟悉建议现在开始补课。
 
 然后你就可以在本地看到一个 `aim-rookie-courses` 的文件夹，里面就是本项目的所有内容。用 VS Code 打开这个文件夹即可。
 
