@@ -45,8 +45,9 @@ python3 --version
 
 ### Visual Studio Code (IDE)
 
-> ~~不是 Visual Studio~~  
-> 几年前如果你说它是个 `IDE` 时，不少人会纠正你说，这个只是“轻量级”的「代码编辑器」，但现在它已经非常强大，完全可以胜任 Python 等几乎所有语言的基础开发任务，thanks to 它丰富的插件生态。
+> 注意：不是 ~~Visual Studio~~  
+> 几年前如果你说它是个 `IDE` 时，不少人会纠正你说，这个只是“轻量级”的「代码编辑器」，但现在它已经非常强大，完全可以胜任 Python 等几乎所有语言的基础开发任务，thanks to 它丰富的插件生态。  
+> 所以叫它 IDE 也没毛病。
 
 #### 安装 VS Code
 
