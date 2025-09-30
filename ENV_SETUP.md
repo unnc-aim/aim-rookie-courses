@@ -47,7 +47,7 @@
 
 #### Markdown
 
-为了更好地在 VS Code 中阅读 Markdown 文件（本教程使用的格式），推荐安装 ⬇️
+为了更好地在 VS Code 中阅读 Markdown 文件（本教程也使用的格式），推荐安装 ⬇️
 
 - bierner.markdown-mermaid # 支持 mermaid 流程图
 - yzhang.markdown-all-in-one # Markdown 增强，可选
@@ -58,3 +58,59 @@
 以及，为了更好地阅读 Jupyter Notebook 文件（.ipynb），推荐安装拓展包 ⬇️
 
 - ms-toolsai.jupyter # Jupyter Notebook 支持
+
+## 关于本项目
+
+本项目使用 Markdown 作为文档格式，所有的代码均托管在 GitHub 上。
+
+你可以在线阅读所有的文档，但更推荐的方式是将这个项目 clone 到本地，然后使用 VS Code 打开。
+
+> 为什么用 `git clone` 而不是直接下载 ZIP 包？因为后续我们会不断更新文档，使用 git 可以方便地同步最新的内容。  
+> 为什么用 VS Code 在本地打开而不是直接在浏览器里看？因为 VS Code 支持更多 Markdown 语法高亮，阅读体验更好。我们教程中还会涉及到 ipynb (Jupyter Notebook) 文件，VS Code 也能直接打开并在本地运行 Python 代码。
+
+如果你还没有安装 git，可以参考[这里](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)进行安装。
+
+### 克隆项目
+
+你可以下载安装好的 Git GUI 工具（比如 [GitHub Desktop](https://desktop.github.com/)），也可以直接在命令行中使用 git。
+
+```bash
+# 记得连 eduroam 或者开魔法
+git clone https://github.com/unnc-aim/aim-rookie-courses.git
+```
+
+然后你就可以在本地看到一个 `aim-rookie-courses` 的文件夹，里面就是本项目的所有内容。用 VS Code 打开这个文件夹即可。
+
+```bash
+# 如果你想装逼：
+cd aim-rookie-courses
+code .
+
+# 如果你发现你装逼失败了：
+# https://code.visualstudio.com/docs/setup/mac#_launch-vs-code-from-the-command-line
+```
+
+### 同步更新
+
+当我们更新了文档内容，你可以在命令行中使用以下命令同步最新的内容：
+
+```bash
+git pull
+```
+
+你也可以在 VS Code 的 Source Control 面板中点击 `...` 按钮，然后选择 `Pull`。
+
+## 其他
+
+- 如果你在使用 VS Code 的过程中遇到任何问题，可以参考[官方文档](https://code.visualstudio.com/docs)或者在网上搜索相关的解决方案。
+- 如果你对本项目有任何建议或者发现了错误，欢迎在 GitHub 上提出 issue 或者 pull request。
+- 如果你希望参与到本项目的维护中来，也欢迎联系我我们老队员。
+
+## 维护人员名单
+
+- [Robert He](https://github.com/hnrobert)
+- [Xiaoyan Gong](https://github.com/Calc1te)
+- [Animex77](https://github.com/Animex77)
+- [lv_xin](https://github.com/lvxin1024)
+
+祝你食用愉快！
