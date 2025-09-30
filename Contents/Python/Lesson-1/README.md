@@ -77,7 +77,8 @@ def greet_robot(name):
 ```python
 # 整数
 robot_id = 42
-team_score = 100
+hero_hp = 600  # 英雄机器人血量较厚
+infantry_hp = 200  # 步兵机器人标准血量
 
 # 浮点数
 battery_voltage = 12.5
@@ -91,8 +92,8 @@ complex_num = 3 + 4j
 
 ```python
 # 字符串定义
-robot_name = "Hero"
-team_name = 'RoboMaster'
+robot_name = "Hero"  # 英雄机器人
+team_name = 'AIM'
 
 # 字符串操作
 message = "Robot " + robot_name + " is ready!"
@@ -180,7 +181,7 @@ print("Hello World")
 print("Robot ID:", robot_id)
 
 # 格式化输出
-print(f"机器人{robot_name}的电压是{battery_voltage}V")
+print(f"英雄机器人{robot_name}的血量是{hero_hp}HP")
 
 # 控制输出格式
 print("A", "B", "C", sep="-")  # A-B-C
@@ -265,8 +266,9 @@ simple_calculator()
 
 模拟机器人状态检查：
 
-- 输入电压值，判断电压是否正常（10V-14V）
-- 输入弹药数量，判断是否需要补充
+- 输入机器人类型（Hero/Infantry/Engineer）
+- 输入当前血量，判断血量状态
+- 根据机器人类型判断是否可以攻击
 - 输出机器人整体状态
 
 ## 课后作业

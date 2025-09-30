@@ -25,13 +25,13 @@
 
 ```python
 # 列表创建和基本操作
-robots = ["Hero", "Infantry", "Engineer", "Drone"]
-scores = [95, 87, 92, 88]
+robots = ["Hero", "Infantry", "Engineer"]  # 去掉Drone，因为我们重点关注这三种
+robot_hp = [600, 200, 250]  # 对应的血量：英雄、步兵、工程
 
 # 列表访问和修改
 print(robots[0])        # Hero
 robots[1] = "Infantry-1"
-print(robots)           # ['Hero', 'Infantry-1', 'Engineer', 'Drone']
+print(robots)           # ['Hero', 'Infantry-1', 'Engineer']
 
 # 列表方法
 robots.append("Sentry")         # 添加元素
