@@ -58,7 +58,7 @@ python3 --version
 
 1. 打开 VS Code。
 2. 点击左侧扩展图标（四个方块组成的图标）。
-3. 搜索“Python”，选择由 Microsoft 提供的扩展并安装。
+3. 搜索“Python”，选择由 Microsoft 提供的扩展并安装。(如果提示是否信任，点 `Trust` 即可)
 
 > UNNCers 别老想着装 Chinese 扩展，英文界面更符合编程习惯。
 >
