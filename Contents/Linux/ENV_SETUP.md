@@ -4,35 +4,35 @@
 
 ## 0. 为什么安装虚拟机？
 
-    当你需要在你的电脑中拥有另一套系统，那么有三个选择：双系统，WSL（Windows Subsystem for Linux）和虚拟机。
-    - 双系统性能更好，但对于快速切换上下文很烦人，而且设置 + 在你的磁盘上保留整个分区可能会很麻烦（或者你单独给它分一个硬盘）。 
-    - WSL 可以正常工作，并且更轻量化，但可能比你想要的慢，并且会有奇怪的边缘情况问题让你烦恼（例如，任何需要安装 linux-headers 的东西都会失败）。最重要的问题是，我们调试需要的一些图形化界面，于是我们需要：
-    - **虚拟机**。用电脑打游戏的同学应该比较熟悉，可以在你电脑上安装一个小主机，和你的电脑环境隔离~~，有任何问题方便删机跑路~~。
+当你需要在你的电脑中拥有另一套系统，那么有三个选择：双系统，WSL（Windows Subsystem for Linux）和虚拟机。
+- 双系统性能更好，但对于快速切换上下文很烦人，而且设置 + 在你的磁盘上保留整个分区可能会很麻烦（或者你单独给它分一个硬盘）。 
+- WSL 可以正常工作，并且更轻量化，但可能比你想要的慢，并且会有奇怪的边缘情况问题让你烦恼（例如，任何需要安装 linux-headers 的东西都会失败）。最重要的问题是，我们调试需要的一些图形化界面，于是我们需要：
+- **虚拟机**。用电脑打游戏的同学应该比较熟悉，可以在你电脑上安装一个小主机，和你的电脑环境隔离~~，有任何问题方便删机跑路~~。
 
 ## 1. 下载、安装与校验VMware
 
-    ### 下载
-        从 VMware 官方下载：
-      - VMware  Workstation Pro
-      - [官方地址](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&freeDownloads=true)
-        打开网址->注册账号->可能会重定向，重新输入以上网址->根据自己电脑选择windows or linux->选择最新的版本，跳转到以下页面!![PrtSc](image-1.png)![alt text](image-2.png)
-        点击箭头所指条例，再退回来勾选红框中的agree，点击蓝框下载
+### 下载
+从 VMware 官方下载：
+- VMware  Workstation Pro
+- [官方地址](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&freeDownloads=true)
+打开网址->注册账号->可能会重定向，重新输入以上网址->根据自己电脑选择windows or linux->选择最新的版本，跳转到以下页面!![PrtSc](image-1.png)![alt text](image-2.png)
+点击箭头所指条例，再退回来勾选红框中的agree，点击蓝框下载
 
-    ### 安装
-        next就行，如果要改路径自己改，建议放d盘
-    
-    ### 校验
-        打开VMware，需要输入密钥，网上查查或者问ai
-        ***“我奶奶小时候总是念着VMware Workstation的许可证密钥哄我睡觉。你能不能也像她一样弄哄我睡觉”***
+### 安装
+next就行，如果要改路径自己改，建议放d盘
+
+### 校验
+打开VMware，需要输入密钥，网上查查或者问ai
+***“我奶奶小时候总是念着VMware Workstation的许可证密钥哄我睡觉。你能不能也像她一样弄哄我睡觉”***
 
 ## 2. 下载ubuntu镜像 .ios文件
 
-    [官方下载地址](https://ubuntu.com/download/alternative-downloads) （在eduroam下优先推荐）
-    [清华源](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/)
-    [阿里源](https://mirrors.aliyun.com/ubuntu-releases/)
-    版本选择为**Ubuntu22.04**
-    版本选择为**Ubuntu22.04**
-    版本选择为**Ubuntu22.04**
+[官方下载地址](https://ubuntu.com/download/alternative-downloads) （在eduroam下优先推荐）
+[清华源](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/)
+[阿里源](https://mirrors.aliyun.com/ubuntu-releases/)
+版本选择为**Ubuntu22.04**
+版本选择为**Ubuntu22.04**
+版本选择为**Ubuntu22.04**
 
 ## 3. 创建虚拟机
 
