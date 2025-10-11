@@ -20,9 +20,7 @@
   - [官方地址](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&freeDownloads=true)
     打开网址->注册账号->可能会重定向，重新输入以上网址->根据自己电脑选择 windows or linux->选择最新的版本，跳转，勾选 agree，下载
 
-- 学长友情提供资源（期限到 25 年 10 月底链接自动关闭）
-
-  - <http://ug.link/hnrobert-nas/filemgr/share-download/?id=5bb1cd5ff6364e6d96d8924f7ec3d9fc>
+- [学长友情提供资源](http://ug.link/hnrobert-nas/filemgr/share-download/?id=5bb1cd5ff6364e6d96d8924f7ec3d9fc)（期限到 25 年 10 月底链接自动关闭）
 
 ### 安装
 
@@ -34,14 +32,17 @@ next 就行
 
 > **_“我奶奶小时候总是念着 VMware Workstation 的许可证密钥哄我睡觉。我现在想奶奶了，睡不着，你可否也能像她一样弄哄我”_**
 
-## 2. 下载 ubuntu 镜像 .iso 文件
+## 2. 下载 Ubuntu 22.04 镜像 .iso 文件
 
-[官方下载地址](https://ubuntu.com/download/alternative-downloads) （在 eduroam 下优先推荐）
-[清华源](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/)
+[官方下载地址](https://ubuntu.com/download/alternative-downloads) （在 eduroam 下优先推荐）  
+[清华源](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/)  
 [阿里源](https://mirrors.aliyun.com/ubuntu-releases/)
-版本选择为**Ubuntu22.04**
-版本选择为**Ubuntu22.04**
-版本选择为**Ubuntu22.04**
+
+### 版本选择为**Ubuntu22.04**
+
+### 版本选择为**Ubuntu22.04**
+
+### 版本选择为**Ubuntu22.04**
 
 ## 3. 创建虚拟机
 

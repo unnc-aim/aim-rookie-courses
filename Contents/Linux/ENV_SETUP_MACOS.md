@@ -14,8 +14,7 @@ Parallels 的优点：集成度高、与 macOS 共享剪贴板与文件夹、图
     - 官方站点有试用版或购买选项。
   - 安装：一般为 .dmg -> 将 Parallels 拖到 Applications，首次运行会提示授予权限（系统偏好设置 / 系统设置 → 隐私与安全 → 必要时允许扩展或许可）。
   - 许可密钥：可使用试用期或输入购买的密钥。
-- 也可以试试学长友情提供资源（期限到 25 年 10 月底链接自动关闭）：
-  - <http://ug.link/hnrobert-nas/filemgr/share-download/?id=c70ad1d2e1ed4ec2a7aa8696b1a7a7fa>
+- 也可以试试 [学长友情提供资源](http://ug.link/hnrobert-nas/filemgr/share-download/?id=c70ad1d2e1ed4ec2a7aa8696b1a7a7fa)（期限到 25 年 10 月底链接自动关闭）：
 
 注意：无需在 mac 上开启 BIOS 虚拟化（这是 PC 的操作）；但在 macOS 上需允许 Parallels 请求的所有权限（屏幕录制、文件访问、扩展等），否则部分功能受限。
 
@@ -23,8 +22,8 @@ Parallels 的优点：集成度高、与 macOS 共享剪贴板与文件夹、图
 
 - 官方下载： <https://ubuntu.com/download/alternative-downloads>
 - 关键点：根据 Mac 的芯片选择镜像：
-  - Apple Silicon：选择 ARM（aarch64 / arm64）版本的 Ubuntu 22.04（server 或 desktop 的 ARM 构建）。
-  - Intel（x86_64）：选择 amd64（x86_64）版本的 Ubuntu 22.04 Desktop。
+  - Apple Silicon：选择 ARM（aarch64 / arm64）版本的 Ubuntu 22.04 LTS（Desktop 的 ARM 版本）。
+  - Intel（x86_64）：选择 amd64（x86_64）版本的 Ubuntu 22.04 LTS Desktop。
 - 国内镜像（可选）：
   - 清华： <https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/>
   - 阿里： <https://mirrors.aliyun.com/ubuntu-releases/>
@@ -69,7 +68,7 @@ Parallels 的优点：集成度高、与 macOS 共享剪贴板与文件夹、图
 - 共享文件夹/剪贴板：在 Parallels 配置里开启 Shared Folders 与 Shared Clipboard。
 - 分辨率/全屏：安装 Parallels Tools 后自动工作；手动可调整 Display 设置。
 - 网络问题：尝试切换 Shared / Bridged；检查 mac 防火墙设置。
-- 无法引导 ISO：确认 ISO 架构与主机芯片一致（Apple Silicon 不能运行 x86_64 ISO）。
+- 无法引导 ISO：确认 ISO 架构与主机芯片一致（虽然 Apple Silicon 能运行 x86_64 ISO，但是需要转译）。
 - Parallels 权限提示：在 macOS 系统设置 → 隐私与安全 中允许 Parallels 的相关权限和扩展。
 - 性能优化：关闭不需要的 macOS 应用，增加 VM 内存/CPU，使用 SSD 存储 VM 文件。
 - 常见命令：安装常用编译依赖 sudo apt update && sudo apt install build-essential curl git
