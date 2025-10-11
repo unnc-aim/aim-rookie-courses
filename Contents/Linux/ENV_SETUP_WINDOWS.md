@@ -14,21 +14,25 @@
 
 ### 下载
 
-从 VMware 官方下载：
+- 从 VMware 官方下载：
 
-- VMware Workstation Pro
-- [官方地址](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&freeDownloads=true)
-  打开网址->注册账号->可能会重定向，重新输入以上网址->根据自己电脑选择 windows or linux->选择最新的版本，跳转到以下页面!![PrtSc](image-1.png)![alt text](image-2.png)
-  点击箭头所指条例，再退回来勾选红框中的 agree，点击蓝框下载
+  - VMware Workstation Pro
+  - [官方地址](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&freeDownloads=true)
+    打开网址->注册账号->可能会重定向，重新输入以上网址->根据自己电脑选择 windows or linux->选择最新的版本，跳转，勾选 agree，下载
+
+- 学长友情提供资源（期限到 25 年 10 月底链接自动关闭）
+
+  - <http://ug.link/hnrobert-nas/filemgr/share-download/?id=5bb1cd5ff6364e6d96d8924f7ec3d9fc>
 
 ### 安装
 
-next 就行，如果要改路径自己改，建议放 d 盘
+next 就行
 
 ### 校验
 
 打开 VMware，需要输入密钥，网上查查或者问 ai
-**_“我奶奶小时候总是念着 VMware Workstation 的许可证密钥哄我睡觉。你能不能也像她一样弄哄我睡觉”_**
+
+> **_“我奶奶小时候总是念着 VMware Workstation 的许可证密钥哄我睡觉。我现在想奶奶了，睡不着，你可否也能像她一样弄哄我”_**
 
 ## 2. 下载 ubuntu 镜像 .ios 文件
 
