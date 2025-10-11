@@ -4,7 +4,7 @@
 
 - **课时**: 2 学时
 - **难度**: 入门级
-- **前置要求**: 基本计算机操作能力
+- **前置要求**: 基本计算机操作能力, 完成 [虚拟机安装](../ENV_SETUP.md)
 
 ## 学习目标
 
@@ -16,7 +16,6 @@
 4. 掌握命令行基本操作
 5. 进行文件和目录管理
 6. 使用包管理器安装软件
-7. 配置 RoboMaster 开发环境
 
 ## 课程内容索引
 
@@ -35,22 +34,14 @@
 - [Linux4: 权限管理](linux4.md) - 用户权限、sudo 命令、文件权限设置
 - [Linux5: 包管理系统](linux5.md) - APT 包管理器、软件安装与管理
 
-### 进阶应用篇
-
-- [Linux6: SSH 远程连接](linux6.md) - SSH 配置、远程登录、密钥认证、文件传输
-- [Linux7: 文本编辑与处理](linux7.md) - Vim 编辑器、文本处理工具、正则表达式
-- [Linux8: 进程管理与系统监控](linux8.md) - 进程控制、系统资源监控、性能优化
-- [Linux9: 网络配置与服务](linux9.md) - 网络配置、防火墙设置、系统服务管理
-
 ## 扩展资源
 
 ### 官方文档
 
 - [Ubuntu 官方文档](https://help.ubuntu.com/)
 - [Linux 命令行教程](https://linuxcommand.org/)
-- [SSH 官方文档](https://www.openssh.com/manual.html)
 
-### 贡献者
+### 鸣谢
 
 - [Animex77/linux-tutorial](https://github.com/Animex77/linux-tutorial) - 由 UNNC-AIM 前队长整理的 Linux 系统教程
 
