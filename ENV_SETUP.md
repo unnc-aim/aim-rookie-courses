@@ -139,5 +139,6 @@ git pull
 - [Xiaoyan Gong](https://github.com/Calc1te)
 - [Animex77](https://github.com/Animex77)
 - [lv_xin](https://github.com/lvxin1024)
+- [HappyDog](https://github.com/HappyDog060713)
 
 祝你食用愉快！

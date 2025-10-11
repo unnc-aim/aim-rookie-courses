@@ -155,3 +155,13 @@ graph TD
 ## 🚀 本地环境配置指南 / 快速开始
 
 - 请移步 [ENV_SETUP.md](./ENV_SETUP.md)
+
+## 维护人员名单
+
+- [Robert He](https://github.com/hnrobert)
+- [Xiaoyan Gong](https://github.com/Calc1te)
+- [Animex77](https://github.com/Animex77)
+- [lv_xin](https://github.com/lvxin1024)
+- [HappyDog](https://github.com/HappyDog060713)
+
+祝你食用愉快！
