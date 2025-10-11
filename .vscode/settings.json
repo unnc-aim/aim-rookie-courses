@@ -32,6 +32,7 @@
         "defense",
         "dhclient",
         "Distrobution",
+        "dkms",
         "Doxyfile",
         "dpkg",
         "dport",
@@ -162,5 +163,8 @@
         "Wpedantic",
         "Xiaoyan",
         "yzhang"
-    ]
+    ],
+    "markdownlint.config": {
+        "no-duplicate-heading": false
+    }
 }
