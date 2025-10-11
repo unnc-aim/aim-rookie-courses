@@ -34,7 +34,7 @@ next 就行
 
 > **_“我奶奶小时候总是念着 VMware Workstation 的许可证密钥哄我睡觉。我现在想奶奶了，睡不着，你可否也能像她一样弄哄我”_**
 
-## 2. 下载 ubuntu 镜像 .ios 文件
+## 2. 下载 ubuntu 镜像 .iso 文件
 
 [官方下载地址](https://ubuntu.com/download/alternative-downloads) （在 eduroam 下优先推荐）
 [清华源](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/)
