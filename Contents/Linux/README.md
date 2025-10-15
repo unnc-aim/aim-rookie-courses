@@ -16,32 +16,36 @@ Linux 基础模块包含 1 节课程，专注于 Linux 操作系统的基础知�
 - 掌握 SSH 远程连接和管理技能
 - 具备基本的系统维护和故障排除能力
 
-## 课程安排
+## 课程内容索引
 
-### Lesson-1: Linux 系统基础和命令行操作（2 学时）
+### 基础理论篇
 
-**学习内容：**
+- [Linux0: 关于 Linux](Lesson-1/linux0.md) - Linux 系统概述、历史背景与应用场景
+- [Linux1: 初识 Terminal（终端）](Lesson-1/linux1.md) - Shell 与 Terminal 介绍、命令行基础概念
 
-- Linux 发展历史和 Ubuntu 介绍
-- 虚拟机安装和 Ubuntu 系统配置
-- 桌面环境使用和基本设置
-- 终端和 Shell 基础概念
-- 文件和目录操作命令
-- 文本处理和编辑工具
-- 系统管理基础（进程、用户、权限）
-- 软件包管理（apt 命令使用）
-- 网络配置和远程连接
-- SSH 服务配置和远程登录实践
-- 安全连接和密钥管理
+### 文件系统操作篇
 
-**实践项目：** RoboMaster 开发环境配置
+- [Linux2: 浏览文件系统](Lesson-1/linux2.md) - 文件系统结构、目录导航与文件查看
+- [Linux3: 操作/管理文件](Lesson-1/linux3.md) - 文件创建、删除、复制移动等基本操作
+
+### 系统管理篇
+
+- [Linux4: 权限管理](Lesson-1/linux4.md) - 用户权限、sudo 命令、文件权限设置
+- [Linux5: 包管理系统](Lesson-1/linux5.md) - APT 包管理器、软件安装与管理
+
+### 进阶应用篇
+
+- [Linux6: SSH 远程连接](Lesson-2/linux6.md) - SSH 配置、远程登录、密钥认证、文件传输
+- [Linux7: 文本编辑与处理](Lesson-2/linux7.md) - Vim 编辑器、文本处理工具、正则表达式
+- [Linux8: 进程管理与系统监控](Lesson-2/linux8.md) - 进程控制、系统资源监控、性能优化
+- [Linux9: 网络配置与服务](Lesson-2/linux9.md) - 网络配置、防火墙设置、系统服务管理
 
 ## 技能要求
 
 ### 入门要求
 
 - 基本计算机操作能力
-- 了解 Windows 或 macOS 系统使用
+- 基本了解 Windows 或 macOS 系统使用
 - 具备基本的命令行概念
 
 ### 完成后技能水平
@@ -79,7 +83,7 @@ Linux 基础模块包含 1 节课程，专注于 Linux 操作系统的基础知�
 - [Linux 命令查询](https://man.linuxde.net/)
 - [Shell 脚本教程](https://www.shellscript.sh/)
 
-### 贡献者
+### 鸣谢
 
 - [Animex77/linux-tutorial](https://github.com/Animex77/linux-tutorial) - 由 UNNC-AIM 前队长整理的 Linux 系统教程
 
