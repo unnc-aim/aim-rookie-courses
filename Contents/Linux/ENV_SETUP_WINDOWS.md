@@ -20,7 +20,7 @@
   - [官方地址](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&freeDownloads=true)
     打开网址->注册账号->可能会重定向，重新输入以上网址->根据自己电脑选择 windows or linux->选择最新的版本，跳转，勾选 agree，下载
 
-- [学长友情提供资源](http://ug.link/hnrobert-nas/filemgr/share-download/?id=5bb1cd5ff6364e6d96d8924f7ec3d9fc)（期限到 25 年 10 月底链接自动关闭）
+- [学长友情提供资源](http://ug.link/hnrobert-nas/filemgr/share-download/?id=6cd4931a986f48dbb9bbfc466bf978ac)（期限到 25 年 10 月底链接自动关闭）
 
 ### 安装
 
