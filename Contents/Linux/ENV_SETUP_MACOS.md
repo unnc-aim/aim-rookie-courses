@@ -14,7 +14,7 @@ Parallels 的优点：集成度高、与 macOS 共享剪贴板与文件夹、图
     - 官方站点有试用版或购买选项。
   - 安装：一般为 .dmg -> 将 Parallels 拖到 Applications，首次运行会提示授予权限（系统偏好设置 / 系统设置 → 隐私与安全 → 必要时允许扩展或许可）。
   - 许可密钥：可使用试用期或输入购买的密钥。
-- 也可以试试 [学长友情提供资源](http://ug.link/hnrobert-nas/filemgr/share-download/?id=c70ad1d2e1ed4ec2a7aa8696b1a7a7fa)（期限到 25 年 10 月底链接自动关闭）：
+- 也可以试试 [学长友情提供资源](http://ug.link/hnrobert-nas/filemgr/share-download/?id=90c4eb9c939f4d04b80d81a9c02d5d5d)（期限到 25 年 10 月底链接自动关闭）：
 
 注意：无需在 mac 上开启 BIOS 虚拟化（这是 PC 的操作）；但在 macOS 上需允许 Parallels 请求的所有权限（屏幕录制、文件访问、扩展等），否则部分功能受限。
 
