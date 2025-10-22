@@ -29,13 +29,10 @@ https://www.bilibili.com/video/BV16Me2zAE4s/?spm_id_from=333.337.search-card.all
   ```
 
 - 因为大家基本都在使用vscode作为编辑器，请下载安装如下扩展（应该安装一个就带着自动安装剩下的了？）：
-**C/C++；C/C++ Extension Pack；C/C++ Runner；C/C++ Themes; catkin-tools；CMake；CMake Tools; CodeLLDB。**
-可选下载安装CLion，后者是一个功能更强但更吃性能的IDE。
+**C/C++；C/C++ Extension Pack；C/C++ Runner；C/C++ Themes; catkin-tools；CMake；CMake Tools; CodeLLDB。** 
+如果您对vscode没有爱了，也可选择下载安装CLion，这是一个功能更强但更吃性能的IDE。
 
 
-
-
----
 
 
 
