@@ -21,6 +21,8 @@ https://www.bilibili.com/video/BV16Me2zAE4s/?spm_id_from=333.337.search-card.all
 
 - 安装C++编译器：您是在什么系统中进行学习的呢？
   1. Windows系统下：请下载并安装这个适用于x64（以及x86）Windows系统的便携式C和C++开发工具包：https://github.com/skeeto/w64devkit/releases/download/v2.4.0/w64devkit-x64-2.4.0.7z.exe
+  下载完成后点击解压，然后把解压后文件夹当中的bin目录，添加到系统环境变量（Path变量）里。
+  示例：C:\Users\Anon\Desktop\w64devkit\bin
   2. Ubuntu系统下：请您打开终端，安装下面3个软件包。
   ```
   sudo apt-get install build-essential
