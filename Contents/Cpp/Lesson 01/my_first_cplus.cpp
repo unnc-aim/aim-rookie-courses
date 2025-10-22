@@ -1,6 +1,4 @@
-// Created by Anon on 2025/10/22.
-
-#include <bits/stdc++.h>                        // 图省事
+#include <iostream>                             // 包含输入输出流库
 
 using namespace std;                            // 懒，按规范不能这么写
 
