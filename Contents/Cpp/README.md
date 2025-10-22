@@ -16,13 +16,14 @@
 
 在正式开始上课之前，为了让我们的cpp之旅更轻松愉快，还请大家做一点微小的准备工作，如下所示：
 
-- 观看一个小的视频：《十分钟速通c++》，快速了解c++的基本输入输出、基础数据类型和运算符、条件和循环语句、数组和字符串。
+- 观看一个小的视频：《十分钟速通c++》（实际时长就八分多钟），快速了解c++的基本输入输出、基础数据类型和运算符、条件和循环语句、数组和字符串。
 https://www.bilibili.com/video/BV16Me2zAE4s/?spm_id_from=333.337.search-card.all.click&vd_source=de25d3a46455a67ae830d6da69eaf3d0
 
 - 安装C++编译器：您是在什么系统中进行学习的呢？
   1. Windows系统下：请下载并安装这个适用于x64（以及x86）Windows系统的便携式C和C++开发工具包：https://github.com/skeeto/w64devkit/releases/download/v2.4.0/w64devkit-x64-2.4.0.7z.exe
   下载完成后点击解压，然后把解压后文件夹当中的bin目录，添加到系统环境变量（Path变量）里。
   示例：C:\Users\Anon\Desktop\w64devkit\bin
+  当然如果您已经安装了visual studio，并选择装了桌面C++开发那一串东西的话也行，应该就不需要上述操作了。
   2. Ubuntu系统下：请您打开终端，安装下面3个软件包。
   ```
   sudo apt-get install build-essential
@@ -30,9 +31,9 @@ https://www.bilibili.com/video/BV16Me2zAE4s/?spm_id_from=333.337.search-card.all
   sudo apt-get install cmake
   ```
 
-- 因为大家基本都在使用vscode作为编辑器，请下载安装如下扩展（应该安装一个就带着自动安装剩下的了？）：
-**C/C++；C/C++ Extension Pack；C/C++ Runner；C/C++ Themes; catkin-tools；CMake；CMake Tools; CodeLLDB。** 
-如果您对vscode没有爱了，也可选择下载安装CLion，这是一个功能更强但更吃性能的IDE。
+- 因为大家基本都在使用vscode作为编辑器，请下载安装如下扩展：
+**C/C++；CMake；CMake Tools; CodeLLDB。** 
+如果您对vscode没有爱了，也可选择下载安装CLion，这是一个功能更强、配置相对方便但更吃性能的IDE。
 
 
 
