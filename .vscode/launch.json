@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Nottingham/MRes1/RM/aim-rookie-courses/Contents/Cpp/Lesson 01",
-      "program": "d:/Nottingham/MRes1/RM/aim-rookie-courses/Contents/Cpp/Lesson 01/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

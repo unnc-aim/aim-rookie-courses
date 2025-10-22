@@ -1,0 +1,9 @@
+# VS Code specific
+.vscode/
+
+# Build artifacts
+build/
+*.exe
+*.out
+*.o
+*.obj
