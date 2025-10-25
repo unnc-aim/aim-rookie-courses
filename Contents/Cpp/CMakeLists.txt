@@ -17,9 +17,16 @@ elseif(CMAKE_CXX_COMPILER_ID MATCHES "Clang|GNU")
 endif()
 
 # --- 添加可执行文件 ---
+# executable意为“可执行的”，my_first_cplus是生成的可执行文件名
 # Lesson 01这个目录名有空格，所以用引号括起来
 add_executable(my_first_cplus
         "Lesson 01/my_first_cplus.cpp"
         "Lesson 01/stupid_namespace.cpp"
         "Lesson 01/stupid_namespace.h"
 )
+
+# 添加新的可执行文件
+add_executable(my_second_cplus
+        "Lesson 02/my_second_cpp.cpp"
+)
+
