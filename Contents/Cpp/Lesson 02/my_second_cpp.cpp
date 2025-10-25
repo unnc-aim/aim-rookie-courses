@@ -117,8 +117,7 @@ public:
     }
 };
 
-// 继承：派生类 roselia 继承自基类 Band
-
+// 继承：派生类 MofoBand 继承自基类 Band
 class MofoBand : public Band {
 public:
     // 子类必须定义自己的构造函数
