@@ -1,9 +1,19 @@
-# VS Code specific
-.vscode/
+*
 
-# Build artifacts
-build/
-*.exe
-*.out
-*.o
-*.obj
+!Lesson 01/
+!Lesson 01/**
+!Lesson 02/
+!Lesson 02/**
+!.gitignore
+!README.md
+!CMakeLists.txt
+
+# 可选：在已放开的课程目录中，再忽略常见构建与 IDE 产物
+/Lesson 01/**/cmake-build-*/
+/Lesson 01/**/build/
+/Lesson 01/**/.idea/
+/Lesson 01/**/.vscode/
+/Lesson 02/**/cmake-build-*/
+/Lesson 02/**/build/
+/Lesson 02/**/.idea/
+/Lesson 02/**/.vscode/

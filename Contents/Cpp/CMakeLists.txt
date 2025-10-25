@@ -16,9 +16,10 @@ elseif(CMAKE_CXX_COMPILER_ID MATCHES "Clang|GNU")
     add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# --- 自动识别源文件路径 ---
-# 自动处理包含空格的路径（例如 "Lesson 01"）
-file(GLOB_RECURSE SOURCES "Lesson 01/*.cpp")
-
 # --- 添加可执行文件 ---
-add_executable(my_first_cplus ${SOURCES})
+# Lesson 01这个目录名有空格，所以用引号括起来
+add_executable(my_first_cplus
+        "Lesson 01/my_first_cplus.cpp"
+        "Lesson 01/stupid_namespace.cpp"
+        "Lesson 01/stupid_namespace.h"
+)
