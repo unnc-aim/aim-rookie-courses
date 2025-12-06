@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <opencv2/opencv.hpp>
 
-// UNNC AIM C++ OpenCV tutorial
+
 
 struct Light {
     cv::RotatedRect box;
@@ -38,35 +38,35 @@ static void filterOverlappingLights(std::vector<Light> &lights, double overlap_t
         for (size_t j = i + 1; j < lights.size(); ++j) {
             if (remove[j]) continue;
             double area_j = lights[j].length * lights[j].width;
-            // 交差面積
+            
             double inter = rotatedRectIntersectionArea(lights[i].box, lights[j].box);
             double min_area = std::min(area_i, area_j);
             if (min_area > 0 && inter / min_area > overlap_thresh) {
-                // 大きい方を残す
+                
                 if (area_i >= area_j) remove[j] = true; else remove[i] = true;
                 continue;
             }
-            // 中心が近すぎる（デュプリケート候補）
+            
             double dx = lights[i].center.x - lights[j].center.x;
             double dy = lights[i].center.y - lights[j].center.y;
             double dist = std::sqrt(dx*dx + dy*dy);
-            // center_dup_thresh がピクセル閾値。平均長さの 0.2 倍などで判定するのも良い。
+            
             double avg_len = (lights[i].length + lights[j].length) * 0.5;
             double adaptive_thresh = std::max(center_dup_thresh, avg_len * 0.15);
             if (dist < adaptive_thresh) {
-                // 長い方を残す
+                
                 if (area_i >= area_j) remove[j] = true; else remove[i] = true;
             }
         }
     }
-    // 新しいベクタに残す
+    
     std::vector<Light> filtered;
     filtered.reserve(lights.size());
     for (size_t k = 0; k < lights.size(); ++k) if (!remove[k]) filtered.push_back(lights[k]);
     lights.swap(filtered);
 }
 
-// 新規: ライトのペアを返す (条件: 同色, サイズが近い, 平行, 水平方向距離 ≒ 4x 長さ)
+
 std::vector<std::pair<Light, Light>> matchLights(const std::vector<Light> &lights,
                                                  float size_ratio_tol = 0.1f,
                                                  float angle_tol_deg = 10.0f,
@@ -81,7 +81,7 @@ int main() {
 
     std::vector<Light> lights = findLightsStrip(bgr_image, bin);
 
-    // ここで重複・重なりライトを除去
+    
     filterOverlappingLights(lights, 0.5, 12.0);
 
     cv::Mat result = bgr_image.clone();
@@ -160,7 +160,7 @@ std::vector<Light> findLightsStrip(const cv::Mat & raw_img, const cv::Mat & bin_
         int sum_r = 0;
         int sum_b = 0;
         const cv::Mat roi = raw_img(bbox);
-        // ROI 内で元の輪郭に含まれるピクセルだけ合算する
+        
         for (int i = 0; i < roi.rows; ++i) {
             for (int j = 0; j < roi.cols; ++j) {
                 cv::Point2f pt((float)(j + bbox.x), (float)(i + bbox.y));
@@ -174,7 +174,7 @@ std::vector<Light> findLightsStrip(const cv::Mat & raw_img, const cv::Mat & bin_
 
         bool isRed = (sum_r > sum_b);
 
-        // Light を構築して追加
+        
         Light L;
         L.box = rrect;
         L.center = center;
@@ -203,7 +203,7 @@ std::vector<std::pair<Light, Light>> matchLights(const std::vector<Light> &light
             const Light &L1 = lights[i];
             const Light &L2 = lights[j];
 
-            // サイズ比 (小/大) > (1 - tol) つまり差が小さいこと
+            
             float min_len = std::min(L1.length, L2.length);
             float max_len = std::max(L1.length, L2.length);
             if (max_len <= 0) continue;
@@ -233,7 +233,7 @@ std::vector<std::pair<Light, Light>> matchLights(const std::vector<Light> &light
 
             float dot = v1.x * v2.x + v1.y * v2.y;
             dot = std::clamp(dot, -1.0f, 1.0f);
-            float angle_deg = std::acos(std::abs(dot)) * 180.0f / CV_PI; // 0..90
+            float angle_deg = std::acos(std::abs(dot)) * 180.0f / CV_PI; 
              if (angle_deg > angle_tol_deg) continue;
 
             cv::Point2f c = L2.center - L1.center;
