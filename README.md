@@ -1,14 +1,14 @@
-# RoboMaster 战队新成员培训课程 (2025-2026 年度版)
+# RoboMaster 战队新成员培训课程
 
 ## 课程概述
 
 本培训体系专为 RoboMaster 战队新成员设计，涵盖**算法/电控**和**机械**两大专业方向，旨在培养具备完整机器人开发能力的工程师。无论你选择哪个方向，都将获得扎实的理论基础和丰富的实践经验。
 
-## 📖 项目结构说明
+## 项目结构说明
 
-本项目采用**双重组织架构**，同时满足课程内容管理和学习路线指导的需求：
+本项目采用**路线/内容分离架构**，同时满足课程内容管理和学习路线指导的需求：
 
-### 📁 Contents/ - 课程内容库
+### `Contents/` - 课程内容库
 
 存放所有教学资源和具体课程内容：
 
@@ -19,61 +19,69 @@
 - `ROS2/` - 机器人操作系统课程
 - `Mechanic/` - 机械设计课程
 
-### 🛤️ Routes/ - 学习路线指南
+### `Routes/` - 学习路线指南
 
 按战队组别组织的个性化学习路径：
 
-- `Computing/` - 算法和电控方向学习路线
+- `Computing/` - 算法/导航/控制方向学习路线
 - `Computing/Algorithm` - 算法学习路线
 - `Computing/Electronic` - 电控（嵌入式）学习路线
 - `Mechanic/` - 机械方向学习路线
 
-其中 Computing 目录下的 `README.md` 文件会指导算法/电控方向的同学需要共同学习的内容，依此类推
+其中 `Computing/` 目录下的 `README.md` 文件会指导算法/导航/控制方向的同学需要共同学习的内容，依此类推
 
-### 📊 学习路线分支图
+### 学习路线分支图
 
 ```mermaid
 graph TD
     A[RoboMaster 战队培训] --> B[Computing 计算方向]
     A --> C[Mechanic 机械方向]
-
-    B --> D[Algorithm 算法组]
-    B --> E[Electronic 电控组]
-
-    D --> F[Vision 视觉算法]
-    D --> G[Navigation 导航算法]
+    B --> F[Algorithm 算法组]
+    B --> G[Navigation 导航组]
+    B --> E[Control 控制组]
+    C --> D[Mechanic 机械组]
+    
+    C --> E
 
     F --> H[Aiming 自瞄系统]
     F --> I[Radar 雷达系统]
+    G --> J[Behavior Tree 行为树]
+    G --> K[Navigation 导航]
+    E --> L[AIMEtherCat 以太猫]
+    E --> M[STM32]
+    D --> N[Inventor 画图]
+    D --> O[Assembling 组装]
+    
+    
 ```
 
-### 🔄 使用流程
+### 使用流程
 
 1. **确定专业方向** → 进入对应的 `Routes/` 目录查看学习路线
 2. **按路线学习** → 根据路线指导，进入 `Contents/` 目录学习具体课程
 3. **专业深化** → 在基础课程完成后，进入专业方向的高级内容
 
-## 🚀 专业方向选择
+## 专业方向选择
 
-### 📊 算法/电控方向
+### 算法/电控方向
 
 适合对编程、算法、电路设计感兴趣的同学
 
 **核心技能**：Linux 系统管理、Python 编程、Cpp 编程、计算机视觉、嵌入式开发
 **就业方向**：软件工程师、算法工程师、嵌入式工程师、系统架构师
 
-[👉 查看算法/电控学习路线](./Routes/Computing/README.md)
+[查看算法/电控学习路线](./Routes/Computing/README.md)
 
-### ⚙️ 机械方向
+### 机械方向
 
 适合对机械设计、结构分析、制造工艺感兴趣的同学
 
 **核心技能**：3D 建模、力学分析、机械结构设计、制造工艺
 **就业方向**：机械设计工程师、结构工程师、制造工程师、产品经理
 
-[👉 查看机械学习路线](./Routes/Mechanic/README.md)
+[查看机械学习路线](./Routes/Mechanic/README.md)
 
-## 📚 课程模块概览
+## 课程模块概览
 
 ### 基础课程模块（所有方向共同学习）
 
@@ -93,7 +101,7 @@ graph TD
 
 - **机械设计**：3D 建模、力学分析、结构设计
 
-## 🎯 培养目标
+## 培养目标
 
 ### 算法/电控方向毕业生能力
 
@@ -111,15 +119,12 @@ graph TD
 - 具备独立设计机器人机械系统的能力
 - 掌握有限元分析和结构优化方法
 
-## 🏆 最终考核项目
+## 最终考核项目
 
 ### 算法/电控方向
 
-基于 OpenCV 的机器人视觉系统，包含：
-
-- 目标识别和追踪
-- 图像处理算法优化
-- 系统集成和性能调优
+- [25-26 学年 算法视觉组 入队考核](https://github.com/unnc-aim/aim-vision-2526-final-assessment)
+- [25-26 学年 导航组 入队考核](https://github.com/unnc-aim/aim-navigation-2526-final-assessment)
 
 ### 机械方向
 
@@ -129,7 +134,7 @@ graph TD
 - 六自由度机械臂
 - 完整的工程图和设计说明书
 
-## 🛠️ 学习环境
+## 学习环境
 
 ### 软件工具
 
@@ -152,7 +157,7 @@ graph TD
 - [RoboMaster 官方技术论坛](https://www.robomaster.com/) - 比赛技术交流
 - [Autodesk 教育版](https://www.autodesk.com/education/) - 免费软件下载
 
-## 🚀 本地环境配置指南 / 快速开始
+## 本地环境配置指南 / 快速开始
 
 - 请移步 [ENV_SETUP.md](./ENV_SETUP.md)
 
@@ -165,4 +170,4 @@ graph TD
 - [HappyDog](https://github.com/HappyDog060713)
 - [AnthonyBvvd](https://github.com/AnthonyBvvd)
 
-祝你食用愉快！
+祝食用愉快！
