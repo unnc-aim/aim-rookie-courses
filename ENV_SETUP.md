@@ -59,6 +59,18 @@
 
 - ms-toolsai.jupyter # Jupyter Notebook 支持
 
+## 战队规范 Skill (aim-common-rules)
+
+如果你使用 AI 编程助手（Claude Code / Cursor / Cline 等），推荐安装战队规范 skill `aim-common-rules`。装上之后，AI 助手会在**创建 / 命名仓库、核对 ROS2 包名、新建分支、写 commit message、格式化 Python / C++ 代码**等场景自动遵循 UNNC AIM 战队的规范，帮你节省翻文档的时间。
+
+在任意项目目录执行下面这行即可（终端里会弹出交互菜单选安装位置；如果是 `curl | bash` 这类非交互环境，默认装到全局 `~/.claude/skills/`）：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/unnc-aim/.github/main/.agent/skills/aim-common-rules/install.sh | bash
+```
+
+> 完整规范、安装位置选项（全局 / 本项目 / 自定义）见战队 org 仓库：[unnc-aim/.github](https://github.com/unnc-aim/.github)（`profile/README.md` §2）。规范更新后重新执行同一行命令即可覆盖更新。
+
 ## 关于本项目
 
 本项目使用 Markdown 作为文档格式，所有的代码均托管在 GitHub 上。
