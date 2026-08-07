@@ -74,8 +74,6 @@ python3 --version
 >
 > 以及，为了更好地在 VS Code 中阅读 Markdown 文件（本教程使用的格式），推荐安装 ⬇️
 >
-> - bierner.markdown-mermaid # 支持 mermaid 流程图
-> - yzhang.markdown-all-in-one # Markdown 增强，可选
 > - DavidAnson.vscode-markdownlint # Markdown 语法检查，可选
 >
 > 以及，为了更好地阅读 Jupyter Notebook 文件（.ipynb），推荐安装拓展包 ⬇️
