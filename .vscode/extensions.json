@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "streetsidesoftware.code-spell-checker",
+        "davidanson.vscode-markdownlint",
+        "github.vscode-pull-request-github",
+        "bierner.markdown-mermaid",
+        "usernamehw.errorlens",
+        "eamodio.gitlens",
+        "yzhang.markdown-all-in-one",
+        "christian-kohler.path-intellisense",
+        "pkief.material-icon-theme"
+    ]
+}
