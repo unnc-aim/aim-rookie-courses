@@ -1,6 +1,6 @@
 # UNNC AIM 新生培训课程 · 仓库总览
 
-> 本仓库（`aim-rookie-courses`，不带年份）是 UNNC AIM 战队新生培训课程的**总览与整体使用指南**。各学年课程放在独立的 `aim-<学年>-rookie-courses` 仓库中，学年结束后归档。
+> 本仓库（`aim-rookie-courses`）是 UNNC AIM 战队新生培训课程的**总览与整体使用指南**。各学年课程放在独立的 `aim-<学年>-rookie-courses` 仓库中，学年结束后归档。
 
 ## 仓库家族
 
